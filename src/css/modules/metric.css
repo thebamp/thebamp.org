@@ -1,8 +1,8 @@
-.metrics {
+.metric {
     text-align: center;
 }
 
-.metrics--photo {
+.metric--photo {
     display: block;
     width: 200px;
     height: 200px;
@@ -10,14 +10,14 @@
     margin-right: auto;
 }
 
-.metrics--photo > img {
+.metric--photo > img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.metrics--stats {
+.metric--stats {
     margin: 20px 0 0;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 700;
@@ -25,22 +25,22 @@
     font-size: 48px;
 }
 
-.metrics--text {
+.metric--text {
     margin: 0;
     font-size: 25px;
 }
 
 @media only screen and (max-width: 700px) {
-    .metrics--photo {
+    .metric--photo {
         width: 150px;
         height: 150px;
     }
 
-    .metrics--text {
+    .metric--text {
         font-size: 17px;
     }
 
-    .metrics--stats {
+    .metric--stats {
         font-size: 36px;
     }
 }
