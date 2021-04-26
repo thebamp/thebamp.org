@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ with .Params.pageHeader }}
+    {{ partial "page-header" . }}
+{{ end }}
+
+{{ partial "mission-statement" (dict "text" .Params.missionStatement) }}
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-spaced">Our Team</h2>
+    <div class="gridBox gridBox-col4 gridBox-center">
+       {{ range .Params.teamMembers }}
+           {{ partial "team-member" . }}
+       {{ end }}
+    </div>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-spaced">Board of Directors</h2>
+    <div class="gridBox gridBox-col3 gridBox-center">
+       {{ range .Params.directors }}
+           {{ partial "team-member" . }}
+       {{ end }}
+    </div>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-spaced">Advisory Committee</h2>
+    <div class="gridBox gridBox-col3 gridBox-center">
+       {{ range .Params.advisors }}
+           {{ partial "team-member" . }}
+       {{ end }}
+    </div>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Hot off the Press</h2>
+    <div class="gridBox gridBox-col1 gridBox-center">
+       {{ range .Params.press }}
+           {{ partial "press" . }}
+       {{ end }}
+    </div>
+</section>
+
+{{ end }}
