@@ -20,6 +20,17 @@ metrics:
   - img: /img/homepage/metrics/volunteers.jpg
     number: 253
     label: volunteers
+featured:
+  - title: Plywood Murals
+    text: >
+        In the wake of George Floyds death, the BAMP and other art organizations have taken to Downtown
+        Oakland, Chinatown to paint plywood boards on storefronts. The boarded up storefronts serve as great
+        canvases to express the need for social change. BAMP hopes that the social justice artwork can be a
+        way to inform, heal, and remind the community of the ongoing current events.
+    img: /img/homepage/plywood-mural-1.jpeg
+    linkText: Events
+    linkUrl: /events/
+    boxColor: red
 partners:
   - linkUrl: http://aaacc.org/
     imageUrl: /img/homepage/supporters/aaacc.png
