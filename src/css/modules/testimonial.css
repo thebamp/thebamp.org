@@ -1,11 +1,12 @@
+#testimonials .slick-slide {
+    margin: 0 20px;
+}
+
+
 .testimonial {
     position: relative;
     margin-top: 100px;
     border: 1px solid var(--dark-gray);
-}
-
-#testimonials .testimonial {
-    margin: 100px 20px 10px;
 }
 
 .testimonial--pic {
