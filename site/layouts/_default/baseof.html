@@ -3,7 +3,10 @@
   {{ partial "head" . }}
   <body class="u-preload">
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+    {{ block "header" . }}
+        {{ partial "nav" . }}
+        {{ partial "nav-modal" . }}
+    {{end}}
 
     {{ block "main" . }}{{ end }}
 
