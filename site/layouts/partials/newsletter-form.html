@@ -1,10 +1,10 @@
-<form action="" class="flex-ns mb3">
+<form class="emailForm" method="POST" action="https://api.slapform.com/bampsite@mailpoof.com">
 
-  <fieldset class="flex-auto mb2 mb0-ns mr2-ns" name="newsletter" action="newsletter-subscribe">
-    <input type="text" id="email" placeholder="Your email" class="w-100">
-    <label for="email">Your email</label>
-  </fieldset>
+    <p class="emailForm--title">Get updates with our newsletter!</p>
+    <input type="email" class="emailForm--inputBox" placeholder="Your email address" name="email" required>
+    <input type="hidden" name="slap_captcha" value="false">
+    <input type="hidden" name="slap_subject" value="newsletter sign-up form submission">
 
-  <button class="btn mb3 w-100 w-auto-ns mb0-ns raise" type="submit">Submit</button>
+    <input type="submit" class="btnLink" value="Sign Up">
 
 </form>
