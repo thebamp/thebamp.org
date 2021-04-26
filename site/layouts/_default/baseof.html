@@ -4,13 +4,15 @@
   <body class="u-preload">
 
     {{ block "header" . }}
-        {{ partial "nav" . }}
-        {{ partial "nav-modal" . }}
+        {{ partialCached "nav" . }}
+        {{ partialCached "nav-modal" . }}
     {{end}}
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    {{ block "footer" . }}
+        {{ partialCached "footer" . }}
+    {{end}}
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
