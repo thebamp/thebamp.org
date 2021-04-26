@@ -1,13 +1,26 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+    {{ partial "homepage-header" }}
 
-{{ partial "short-text" .Params.blurb}}
+    {{ partial "text-with-heading" (dict
+        "heading" "Bay Area Mural Program"
+        "text" "BAMP is a nonprofit organization of local artists dedicated to facilitating and creating public art.  Our vision is to turn bare, blighted walls into artistic gateways into the community's surrounding environment."
+    ) }}
 
-{{ partial "2-up" .Params }}
+    {{ partial "metrics" }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+    {{ partial "featured" (dict
+        "title" "Plywood Murals"
+        "img" "/img/homepage/plywood-mural-1.jpeg"
+        "text" "In the wake of George Floyds death, the BAMP and other art organizations have taken to Downtown Oakland, Chinatown to paint plywood boards on storefronts.  The boarded up storefronts serve as great canvases to express the need for social change. BAMP hopes that the social justice artwork can be a way to inform, heal, and remind the community of the ongoing current events."
+        "linkTarget" "events.html"
+        "linkText" "Events"
+    ) }}
 
-{{ partial "blog" . }}
+    {{ partial "testimonials" }}
+
+    {{ partial "clients-and-partners" }}
+
+    {{ partial "instagram-feed" }}
 
 {{ end }}
