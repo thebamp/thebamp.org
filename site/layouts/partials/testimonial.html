@@ -1,12 +1,10 @@
 <div class="testimonial">
-
     <div class="testimonial--pic">
-        <img src="/img/homepage/testimonials/{{.src}}">
+        <img src="{{ .src }}">
     </div>
 
     <div class="testimonial--content">
-        <span class="testimonial--name">{{.name}}</span>
-        <p class="testimonial--quote">“{{.quote}}”</p>
+        <span class="testimonial--name">{{ .name }}</span>
+        <p class="testimonial--quote">“{{ trim .quote "\n" }}”</p>
     </div>
-
 </div>

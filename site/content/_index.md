@@ -31,6 +31,36 @@ featured:
     linkText: Events
     linkUrl: /events/
     boxColor: red
+testimonials:
+  - name: Anna Olsen
+    quote: >
+        BAMP was a great partner for a Public Art Mural we worked on with them for a K-12 school in
+        Oakland. Andre and his team are great to work with and were awesome working with the students.
+        Everything was on schedule and the work they did was great! We would recommend them and be
+        happy to work with them again on another project.
+    src: /img/homepage/testimonials/anna-olsen.png
+  - name: Fairbanks Farms
+    quote: >
+        We've had the members of BAMP up several times for different mural projects. Every member of
+        the team has shown up with a very positive energy, and a strong desire to create with one
+        and other as well as us. They've been a pleasure to work with, and we'd absolutely recommend
+        the team to anyone seeking out their services.
+    src: /img/homepage/testimonials/fairbanks-farms.jpg
+  - name: Belinda Bain
+    quote: >
+        I haven’t yet (!) worked with BAMP but can’t help but leave a review of their culture-defining
+        and -shaping work, having followed their rise from conception. Knowing one of their muralists
+        for almost 30 years, I’ve been able to see their destiny take fruition. To make us ask the hard
+        questions, to bring back consideration and compassion in the community, and above all, to
+        introduce new cultural concepts through art activism. Five stars doesn’t cut it.
+    src: /img/homepage/testimonials/belinda-bain.jpg
+  - name: Howard Flax
+    quote: >
+        I love Oakland. We met Andre (Natty Rebel) a few weeks ago as we were walking to dinner.
+        He was painting a mural across the street from the restaurant and I asked him if he'd heard
+        of the new awesome art store in town. He hadn't. We got to talking a bit, and now he's set
+        to adorn the new store with one of his fantastic murals!
+    src: /img/homepage/testimonials/flax-f.jpg
 partners:
   - linkUrl: http://aaacc.org/
     imageUrl: /img/homepage/supporters/aaacc.png

@@ -21,7 +21,13 @@
         {{ end }}
     </section>
 
-    {{ partial "testimonials" }}
+    <section id="testimonials" class="l-section">
+        <div class="carousel js-carousel-testimonials">
+            {{ range .Params.testimonials }}
+                {{ partial "testimonial" . }}
+            {{ end }}
+        </div>
+    </section>
 
     <section class="l-section">
         <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Clients and Partners</h2>
