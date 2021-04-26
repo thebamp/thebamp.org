@@ -20,4 +20,75 @@ metrics:
   - img: /img/homepage/metrics/volunteers.jpg
     number: 253
     label: volunteers
+partners:
+  - linkUrl: http://aaacc.org/
+    imageUrl: /img/homepage/supporters/aaacc.png
+  - linkUrl: https://www.ousd.org/Page/495
+    imageUrl: /img/homepage/supporters/aama.png
+  - linkUrl: https://www.ahc-oakland.org/
+    imageUrl: /img/homepage/supporters/ahc.png
+  - linkUrl: https://alenamuseum.com/
+    imageUrl: /img/homepage/supporters/alena.png
+  - linkUrl: https://www.artplaceamerica.org/
+    imageUrl: /img/homepage/supporters/artplace.png
+  - linkUrl: https://www.mlb.com/athletics
+    imageUrl: /img/homepage/supporters/athletics.gif
+  - linkUrl: https://www.sfparksalliance.org/our-parks/parks/rosa-parks-senior-center
+    imageUrl: /img/homepage/supporters/bayviewss.png
+  - linkUrl: https://www.bluedreamoakland.com/
+    imageUrl: /img/homepage/supporters/blue_dream.png
+  - linkUrl: http://chromaonline.com/landing
+    imageUrl: /img/homepage/supporters/chroma.png
+  - linkUrl: http://citizenfilm.org/
+    imageUrl: /img/homepage/supporters/citizen_film.png
+  - linkUrl: https://designdrawbuild.com/
+    imageUrl: /img/homepage/supporters/design.png
+  - linkUrl: https://ebaldc.org/
+    imageUrl: /img/homepage/supporters/ebaldc.png
+  - linkUrl: http://eoydc.org/
+    imageUrl: /img/homepage/supporters/eoydc.png
+  - linkUrl: https://www.exhaleandpaint.com/
+    imageUrl: /img/homepage/supporters/exhale.png
+  - linkUrl: https://flaxart.com/oakland-store/
+    imageUrl: /img/homepage/supporters/flax.png
+  - linkUrl: https://sfgfta.org/
+    imageUrl: /img/homepage/supporters/grants.png
+  - linkUrl: https://www.officiallionofjudah.com/single-post/2020/03/27/Life-Yard-360-KingstonJamaica
+    imageUrl: /img/homepage/supporters/lifeyard.png
+  - linkUrl: https://www.obama.org/mbka/
+    imageUrl: /img/homepage/supporters/mbk.png
+  - linkUrl: https://momagic.org/about/
+    imageUrl: /img/homepage/supporters/mo_magic.png
+  - linkUrl: https://openarchcollab.org/
+    imageUrl: /img/homepage/supporters/oac.png
+  - linkUrl: http://bamfest.org/home
+    imageUrl: /img/homepage/supporters/oak_mural_fest.png
+  - linkUrl: https://www.oaklandca.gov/
+    imageUrl: /img/homepage/supporters/oakland.png
+  - linkUrl: https://oakstop.com/
+    imageUrl: /img/homepage/supporters/oakstop.png
+  - linkUrl: https://www.tpl.org/
+    imageUrl: /img/homepage/supporters/public_land.png
+  - linkUrl: https://www.7thwest.com/
+    imageUrl: /img/homepage/supporters/seventh_west.png
+  - linkUrl: https://sfrecpark.org/
+    imageUrl: /img/homepage/supporters/sf_parks.png
+  - linkUrl: https://sfmayor.org/
+    imageUrl: /img/homepage/supporters/sf.png
+  - linkUrl: https://www.sfartscommission.org/
+    imageUrl: /img/homepage/supporters/sfac.png
+  - linkUrl: https://www.sparcoakland.com/
+    imageUrl: /img/homepage/supporters/sparc.png
+  - linkUrl: https://www.instagram.com/studio1405_
+    imageUrl: /img/homepage/supporters/studio_1405.png
+  - linkUrl: 
+    imageUrl: /img/homepage/supporters/upward_bound.png
+  - linkUrl: https://www.vallejoarts.org/
+    imageUrl: /img/homepage/supporters/vcaf.png
+  - linkUrl: https://www.visitoakland.com/
+    imageUrl: /img/homepage/supporters/visit.png
+  - linkUrl: https://www.wholefoodsmarket.com/
+    imageUrl: /img/homepage/supporters/whole_foods.png
+  - linkUrl: 
+    imageUrl: /img/homepage/supporters/writing_4_life.png   
 ---

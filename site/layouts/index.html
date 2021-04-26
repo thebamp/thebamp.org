@@ -25,7 +25,16 @@
 
     {{ partial "testimonials" }}
 
-    {{ partial "clients-and-partners" }}
+    <section class="l-section">
+        <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Clients and Partners</h2>
+        <div class="scrollCarousel">
+            <div class="scrollCarousel--contents">
+                {{ range .Params.partners }}
+                    <a href="{{ .linkUrl }}"><img src="{{ .imageUrl }} "></a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
 
     {{ partial "instagram-feed" }}
 
