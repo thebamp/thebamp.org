@@ -1,0 +1,75 @@
+.press {
+    display: flex;
+    text-decoration: none;
+    background: var(--silver);
+    width: 100%;
+    max-width: 1600px;
+    color: var(--gray);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.press + .press {
+    margin-top: 20px;
+}
+
+.press:hover {
+    opacity: 0.8;
+    transform: scale(0.99);
+}
+
+.press--img {
+    width: 35%;
+    object-fit: cover;
+
+    /* necessary for safari */
+    min-height: 30vw;
+    height: 100%;
+}
+
+.press--container {
+    padding: 25px 50px;
+}
+
+.press--name {
+    font-size: 22px;
+}
+
+.press--headline {
+    font-size: 22px;
+    color: var(--dark-gray);
+}
+
+.press--date {
+    font-size: 16px;
+}
+
+.press--text {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    .press {
+        flex-direction: column;
+        font-size: 17px;
+    }
+
+    .press--img {
+        width: 100%;
+    }
+
+    .press--name {
+        font-size: 20px;
+    }
+
+    .press--headline {
+        font-size: 20px;
+    }
+
+    .press--date {
+        font-size: 13px;
+    }
+
+    .press--text {
+        font-size: 20px;
+    }
+}

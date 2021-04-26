@@ -1,0 +1,85 @@
+.infoCard {
+    display: flex;
+}
+
+.infoCard + .infoCard {
+    margin-top: 100px;
+}
+
+.infoCard--img {
+    width: 35%;
+    object-fit: cover;
+
+    /* necessary for safari */
+    min-height: 30vw;
+    height: 100%;
+}
+
+.infoCard--caption {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoCard--title {
+    color: var(--dark-blue);
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+.infoCard--text {
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    padding-bottom: 1.5em;
+}
+
+.infoCard .btnLink {
+    margin-right: auto;
+}
+
+/* ultra-wide desktop */
+@media only screen and (min-width: 1400px) {
+    .infoCard--caption {
+        padding: 20px;
+    }
+
+    .infoCard--text {
+        font-size: 24px;
+    }
+
+    .infoCard .btnLink {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .infoCard--img {
+        width: 35%;
+        height: 48vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .infoCard {
+        flex-direction: column;
+    }
+
+    .infoCard--img {
+        width: 100%;
+    }
+
+    .infoCard--title {
+        font-size: 25px;
+    }
+
+    .infoCard--text {
+        font-size: 15px;
+    }
+
+    .infoCard .btnLink {
+        margin-left: auto;
+    }
+}

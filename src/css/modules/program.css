@@ -1,0 +1,98 @@
+.program {
+    display: flex;
+    flex-direction: row;
+
+    /* note: align-items must be something other than stretch (the default) for safari, or
+     * the image needs a fixed height set. otherwise it can force the flexbox to grow taller. */
+    align-items: center;
+}
+
+.program--img {
+    padding: 15px;
+    width: 30%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.program--caption {
+    padding: 10px 40px;
+}
+
+.program--title {
+    color: var(--dark-blue);
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 30px;
+}
+
+.program--text {
+    color: var(--dark-gray);
+    align-self: flex-start;
+    line-height: 133%;
+    font-size: 20px;
+}
+
+.program--details {
+    color: var(--gray);
+    margin-bottom: 0;
+}
+
+.program--bottom {
+    margin-top: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.program--price {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.l-section > .box {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .program--img {
+        height: 40vw;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .program {
+        min-width: 200px;
+        flex-direction: column-reverse;
+    }
+
+    .program--img {
+        box-sizing: border-box;
+        width: 100%;
+        flex-grow: 1;
+        height: 250px;
+    }
+
+    .program--caption {
+        padding: 10px 40px;
+        flex-grow: 0;
+    }
+
+    .program--title {
+        font-size: 18px;
+    }
+
+    .program--text {
+        font-size: 16px;
+    }
+
+    .program--details {
+        font-size: 14px;
+    }
+
+    .program--price {
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    .program .btnLink {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+li {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-bottom: 13px;
+}
+
+button,
+input[type="submit"] {
+    border: none;
+    background: none;
+    text-align: inherit;
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+}

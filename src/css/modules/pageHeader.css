@@ -1,0 +1,64 @@
+.pageHeader {
+    display: block;
+    padding: 0 40px;
+    margin-bottom: -125px;
+}
+
+.pageHeader--img {
+    width: 100%;
+    max-height: 800px;
+    overflow: visible;
+    object-fit: cover;
+}
+
+.pageHeader > .box {
+    position: relative;
+    top: -150px;
+    left: 40px;
+    width: 98%;
+    box-sizing: border-box;
+    padding: 30px 50px;
+}
+
+.pageHeader--text {
+    color: var(--gray);
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.pageHeader--text-smaller {
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 900px) {
+    .pageHeader .sectionHeading {
+        font-size: 40px;
+    }
+
+    .pageHeader--text {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pageHeader {
+        padding: 0 7px;
+        margin-bottom: -50px;
+    }
+
+    .pageHeader > .box {
+        top: -90px;
+        left: 10px;
+        padding: 18px 25px;
+    }
+
+    .pageHeader .sectionHeading {
+        font-size: 20px;
+    }
+
+    .pageHeader--text {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}

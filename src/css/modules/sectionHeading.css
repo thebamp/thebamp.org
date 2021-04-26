@@ -1,0 +1,37 @@
+.sectionHeading {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    color: var(--dark-blue);
+    font-size: 48px;
+}
+
+.sectionHeading-spaced {
+    margin-bottom: 70px;
+}
+
+.sectionHeading-centered {
+    width: 100%;
+    text-align: center;
+}
+
+.sectionHeading-right {
+    text-align: right;
+}
+
+.sectionHeading-sub {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionHeading {
+        font-size: 36px;
+    }
+
+    .sectionHeading-spaced {
+        margin-bottom: 40px;
+    }
+
+    .sectionHeading-sub {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,41 @@
+.u-preload * {
+    transition: none !important;
+}
+
+.u-onlyMobile {
+    display: none;
+}
+
+.u-text-medium {
+    font-size: 20px;
+}
+
+.u-text-2xHeight {
+    line-height: 200%;
+}
+
+.u-padBottom {
+    padding-bottom: 30px;
+}
+
+.u-nowrap {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .u-onlyDesktop {
+        display: none !important;
+    }
+
+    .u-onlyMobile {
+        display: block;
+    }
+
+    .u-text-medium {
+        font-size: 15px;
+    }
+
+    .u-text-2xHeight {
+        line-height: 150%;
+    }
+}

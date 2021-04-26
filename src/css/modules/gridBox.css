@@ -1,0 +1,52 @@
+.gridBox { /* a container with grid */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridBox > * {  /* applies to all the items in the grid */
+    vertical-align: top;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+.gridBox-center {
+    justify-content: center;
+}
+
+/* columns */
+
+.gridBox-col1 > * {
+    flex-basis: 100%;
+}
+
+.gridBox-col2 > * {
+    flex-basis: 45%;
+}
+
+.gridBox-col3 > * {
+    flex-basis: 30%;
+}
+
+.gridBox-col4 > * {
+    flex-basis: 22%;
+}
+
+@media only screen and (max-width: 1050px) {
+    .gridBox-col4-collapse > * {
+        flex-basis: 45%;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .gridBox-col2-collapse > * {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gridBox-col4 > * {
+        flex-basis: 39%;
+    }
+}

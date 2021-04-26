@@ -1,0 +1,43 @@
+.btnLink,
+input[type="submit"].btnLink {
+    display: inline-block;
+    background: var(--light-blue);
+    color: var(--white);
+    padding: 5px 15px;
+    border-radius: 100px;
+    opacity: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 150ms;
+    user-select: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btnLink + .btnLink {
+    margin-left: 8px;
+}
+
+.btnLink:hover {
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.btnLink:active {
+    transform: scale(0.95);
+}
+
+.btnLink-red {
+    background: var(--red);
+}
+
+.btnLink-small {
+    font-size: 14px;
+}
+
+.btnLink-large {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

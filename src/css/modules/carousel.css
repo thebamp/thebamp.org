@@ -1,0 +1,92 @@
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.carousel:not(.slick-initialized) > *:not(:first-child) {
+    display: none;
+}
+
+.carousel--item {
+    width: 100%;
+    object-fit: cover;
+    transition: 150ms;
+}
+
+.carousel--item-cover {
+    height: 45vw;
+}
+
+.carousel--arrow {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    top: 45%; /* not 50 because it needs to take dots into account */
+    transform: translateY(-50%);
+    margin: 0 10px;
+    user-select: none;
+    transition: 150ms;
+    color: var(--white);
+    font-size: 26px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    z-index: 10;
+}
+
+.carousel--arrow:hover {
+    opacity: 0.8;
+    background: var(--silver);
+    color: var(--dark-gray);
+}
+
+.carousel--arrow-prev {
+    left: 0;
+}
+
+.carousel--arrow-next {
+    right: 0;
+}
+
+.carousel--dots {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}
+
+.carousel--dots li {
+    display: inline;
+}
+
+.carousel--dots button {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #afaeae;
+    transition: 150ms;
+    margin: 15px 3px;
+    font-size: 0;
+    outline: none;
+}
+
+.carousel--dots button:hover {
+    background: var(--dark-blue);
+}
+
+.carousel--dot-is-active,
+.carousel--dots .slick-active button {
+    background: var(--dark-gray);
+}
+
+/* hide "next" slider before it can get eaten by the speech bubble */
+@media only screen and (max-width: 800px) {
+    .carousel--arrow {
+        display: none !important;
+    }
+}

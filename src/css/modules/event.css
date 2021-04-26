@@ -1,0 +1,97 @@
+.event {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.event--img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.event--title,
+.event--text,
+.event--bottom {
+    padding: 0 40px;
+}
+
+.event--title {
+    color: var(--dark-blue);
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 25px;
+}
+
+.event--text {
+    color: var(--dark-gray);
+    font-size: 17px;
+}
+
+.event--bottom {
+    display: flex;
+    align-items: baseline;
+}
+
+.event--when {
+    color: var(--dark-blue);
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    flex-grow: 0.5;
+}
+
+.event--date {
+    color: var(--gray);
+    font-size: 16px;
+    flex-grow: 2;
+}
+
+/* gridBox-col2-collapse collapses at 900px */
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
+    .event--when {
+        font-size: 17px;
+    }
+
+    .event--date {
+        font-size: 15px;
+    }
+
+    .event .btnLink {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .event {
+        display: block;
+        min-width: 240px;
+    }
+
+    .event--img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .event--title,
+    .event--text,
+    .event--bottom {
+        padding: 0 20px;
+    }
+
+    .event--title {
+        font-size: 18px;
+    }
+
+    .event--text {
+        font-size: 14px;
+    }
+
+    .event--when {
+        font-size: 17px;
+    }
+
+    .event--date {
+        font-size: 15px;
+    }
+
+    .event .btnLink {
+        font-size: 14px;
+    }
+}
