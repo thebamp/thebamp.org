@@ -1,0 +1,15 @@
+<div class="faq">
+
+    <button class="faq--questionBox">
+        <div class="faq--question">
+            {{.question}}
+        </div>
+
+        <div class="faq--plus">+</div>
+    </button>
+
+    <div class="faq--answer">
+        {{.answer | safeHTML }}
+    </div>
+
+</div>
