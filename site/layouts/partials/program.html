@@ -1,0 +1,14 @@
+<div class="box box-{{ .boxColor }}">
+    <div class="program">
+        <div class="program--caption">
+            <p class="program--title">{{ .title }}</p>
+            <p class="program--text">{{ .text | safeHTML }}</p>
+            <p class="program--details">{{ .details }}</p>
+            <div class="program--bottom">
+                <a class="btnLink">Sign Up</a>
+                <p class="program--price">{{ .price }}</p>
+            </div>
+        </div>
+        <img class="program--img" src="{{ .imageUrl }}">
+    </div>
+</div>
