@@ -2,10 +2,10 @@
 
     {{ partial "homepage-header" (dict "items" .Params.carousel) }}
 
-    {{ partial "text-with-heading" (dict
-        "heading" "Bay Area Mural Program"
-        "text" "BAMP is a nonprofit organization of local artists dedicated to facilitating and creating public art.  Our vision is to turn bare, blighted walls into artistic gateways into the community's surrounding environment."
-    ) }}
+    <section class="l-section">
+        <h1 class="sectionHeading sectionHeading-centered sectionHeading-spaced">{{ .Params.heading }}</h1>
+        <p class="l-section--text">{{ .Params.text }}</p>
+    </section>
 
     <section class="l-section">
         <div class="gridBox gridBox-col4 gridBox-col4-collapse gridBox-center">
