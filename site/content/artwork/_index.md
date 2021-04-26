@@ -1,45 +1,154 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
-values:
-  - heading: "Shade-grown coffee"
-    text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
-    text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
-    text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
-    imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-reinvest-profits.jpg"
+title: Artwork
+murals:
+  - id: blmoak
+    date: July 2020
+    imageUrl: /img/artwork/blmoak.jpg
+    leadArtist: Andre Jones
+    location: Downtown Oakland
+    thumbUrl: /img/artwork/thumbnails/blmoak.jpg
+    title: BLM / Oakland
+  - id: blmsf
+    date: July 2020
+    imageUrl: /img/artwork/blmsf.jpg
+    leadArtist: Andre Jones
+    location: African American Art and Culture Complex, SF
+    thumbUrl: /img/artwork/thumbnails/blmsf.jpg
+    title: BLM / SF
+  - id: nipsey
+    date: July 2020
+    imageUrl: /img/artwork/nipsey.jpg
+    leadArtist: Timothy B.
+    location: Grand Express Market, Oakland
+    thumbUrl: /img/artwork/thumbnails/nipsey.jpg
+    title: Nipsey
+  - id: naomais
+    date: July 2020
+    imageUrl: /img/artwork/naomais.png
+    leadArtist: Rachel Wolfe-Goldsmith, Pamela "Plum" Outten
+    location: Webster Street, Oakland
+    thumbUrl: /img/artwork/thumbnails/naomais.png
+    title: Nao Mais
+  - id: lodestar
+    date: April 2020
+    imageUrl: /img/artwork/lodestar.jpg
+    leadArtist: Rachel Wolfe-Goldsmith
+    location: Lodestar Public School, Oakland
+    thumbUrl: /img/artwork/thumbnails/lodestar.jpg
+    title: Oakland Love the New Future
+  - id: authoak
+    date: December 2018
+    imageUrl: /img/artwork/authoak.png
+    leadArtist: Andre Jones
+    location: Whole Foods Market, Oakland
+    thumbUrl: /img/artwork/thumbnails/authoak.png
+    title: Authentically Oakland
+  - id: gateway
+    date: December 2015
+    imageUrl: /img/artwork/gateway.jpg
+    leadArtist:
+    location: Georgia Street, Vallejo
+    text: Awarded grant.
+    thumbUrl: /img/artwork/thumbnails/gateway.jpg
+    title: Gateway to Vallejo
+  - id: kapor
+    date: August 2020
+    imageUrl: /img/artwork/kapor.jpg
+    leadArtist:
+    location: Kapor Center, Oakland
+    thumbUrl: /img/artwork/thumbnails/kapor.jpg
+    title: Justice for My Ancestors
+  - id: farmacy
+    date: October 2019
+    imageUrl: /img/artwork/digdeep.jpg
+    leadArtist: Bobby Arte
+    location: Dig Deep Farm, Oakland
+    thumbUrl: /img/artwork/thumbnails/digdeep.jpg
+    title: The Farmacy
+  - id: ahome
+    date: November 2017
+    imageUrl: /img/artwork/ahome.jpg
+    leadArtist: Andre Jones
+    location: Chestnut Street, Oakland
+    thumbUrl: /img/artwork/thumbnails/ahome.jpg
+    title: Everyone Deserves a Home
+  - id: seer
+    date: October 2018
+    imageUrl: /img/artwork/seer.jpg
+    leadArtist: Rachel Wolfe-Goldsmith
+    location: 7th Street, Oakland
+    thumbUrl: /img/artwork/thumbnails/seer.jpg
+    title: The Seer
+    date: October 2018
+    leadArtist: Rachel Wolfe-Goldsmith
+  - id: literacy
+    date: March 2019
+    imageUrl: /img/artwork/literacy.jpg
+    leadArtist: Andre Jones
+    location: MLK Elementary School, Oakland
+    thumbUrl: /img/artwork/thumbnails/literacy.jpg
+    title: Literacy Is the Key to Life
+  - id: fillmore
+    date: May 2019
+    imageUrl: /img/artwork/fillmore.jpg
+    leadArtist: Rachel Wolfe-Goldsmith
+    location: Rosa Parks Center, SF
+    thumbUrl: /img/artwork/thumbnails/fillmore.jpg
+    title: Spirit of the Fillmore
+  - id: rooted
+    date: June 2019
+    imageUrl: /img/artwork/rooted.jpg
+    leadArtist: Andre Jones
+    location: Coliseum Way, Oakland
+    thumbUrl: /img/artwork/thumbnails/rooted.jpg
+    title: Rooted in Oakland
+  - id: indigenized
+    date: July 2019
+    imageUrl: /img/artwork/indigenized.jpg
+    leadArtist: Rachel Wolfe-Goldsmith, Timothy B.
+    location: Standing Rock Reservation, ND
+    thumbUrl: /img/artwork/thumbnails/indigenized.jpg
+    title: Indigenized Energy
+  - id: bethepower
+    date: July 2019
+    imageUrl: /img/artwork/bethepower.jpg
+    leadArtist: Bobby Arte
+    location: East Oakland Youth Development Center
+    thumbUrl: /img/artwork/thumbnails/bethepower.jpg
+    title: Be the Power
+  - id: youthemp
+    date: October 2020
+    imageUrl: /img/artwork/youthemp.jpg
+    leadArtist: Rachel Wolfe-Goldsmith
+    location: 22nd & Broadway, Oakland
+    thumbUrl: /img/artwork/thumbnails/youthemp.jpg
+    title: Youth Empowerment
+  - id: headup
+    date: December 2020
+    imageUrl: /img/artwork/headup.jpg
+    leadArtist: Andre Jones
+    location: 19th & Broadway, Oakland
+    thumbUrl: /img/artwork/thumbnails/headup.jpg
+    title: Keep Your Head Up / Woman in Water
+  - id: sph
+    date: December 2020
+    imageUrl: /img/artwork/sph.jpg
+    leadArtist: Derrick "Rtystk" Shavers
+    location: San Pablo Avenue, Oakland
+    thumbUrl: /img/artwork/thumbnails/sph.jpg
+    title: San Pablo Hotel
+  - id: aaacc
+    date: December 2019
+    imageUrl: /img/artwork/aaacc.jpg
+    leadArtist: Andre Jones
+    location: African American Art and Culture Complex, SF
+    thumbUrl: /img/artwork/thumbnails/aaacc.jpg
+    title: Floral Offering
+  - id: fairbanks
+    date: December 2019
+    imageUrl: /img/artwork/fairbanks.jpg
+    leadArtist: Andre Jones
+    location: Fairbanks Farms, Covelo
+    thumbUrl: /img/artwork/thumbnails/fairbanks.jpg
+    title: Fairbanks Farms
 ---
