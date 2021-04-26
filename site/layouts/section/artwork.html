@@ -168,28 +168,8 @@
 </section>
 <section class="l-section">
     <div class="gridBox gridBox-col2 gridBox-col2-collapse">
-        <div class="fixedRatio fixedRatio-60">
-            <iframe
-                class="fixedRatio--contents"
-                width="100%"
-                frameborder="0"
-                src="https://www.youtube.com/embed/OaKg3WeMKrI"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-        <div class="wantMural">
-            <h2 class="sectionHeading">Want a Mural?</h2>
-            <p>
-                Bay Area Mural Program is committed to exceeding your public art needs.
-                We have designers and muralist that specialize in bringing your ideas to life.
-            </p>
-            <p>
-                Questions, comments or special requests?
-                We’d love to hear from you, so don’t hesitate to reach out today.
-            </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform" class="btnLink">Click Here</a>
-        </div>
+        {{ partial "youtube" (dict "src" "https://www.youtube.com/embed/OaKg3WeMKrI") }}
+        {{ partial "want-a-mural" }}
     </div>
 </section>
 
