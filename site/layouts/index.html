@@ -1,45 +1,45 @@
 {{ define "main" }}
 
-    {{ partial "homepage-header" (dict "items" .Params.carousel) }}
+{{ partial "homepage-header" (dict "items" .Params.carousel) }}
 
-    <section class="l-section">
-        <h1 class="sectionHeading sectionHeading-centered sectionHeading-spaced">{{ .Params.heading }}</h1>
-        <p class="l-section--text">{{ .Params.text }}</p>
-    </section>
+<section class="l-section">
+    <h1 class="sectionHeading sectionHeading-centered sectionHeading-spaced">{{ .Params.heading }}</h1>
+    <p class="l-section--text">{{ .Params.text }}</p>
+</section>
 
-    <section class="l-section">
-        <div class="gridBox gridBox-col4 gridBox-col4-collapse gridBox-center">
-            {{ range .Params.metrics }}
-                {{ partial "metric" . }}
-            {{ end }}
-        </div>
-    </section>
-
-    <section class="l-section">
-        {{ range .Params.featured }}
-            {{ partial "featured" . }}
+<section class="l-section">
+    <div class="gridBox gridBox-col4 gridBox-col4-collapse gridBox-center">
+        {{ range .Params.metrics }}
+            {{ partial "metric" . }}
         {{ end }}
-    </section>
+    </div>
+</section>
 
-    <section id="testimonials" class="l-section">
-        <div class="carousel js-carousel-testimonials">
-            {{ range .Params.testimonials }}
-                {{ partial "testimonial" . }}
+<section class="l-section">
+    {{ range .Params.featured }}
+        {{ partial "featured" . }}
+    {{ end }}
+</section>
+
+<section class="l-section" id="testimonials">
+    <div class="carousel js-carousel-testimonials">
+        {{ range .Params.testimonials }}
+            {{ partial "testimonial" . }}
+        {{ end }}
+    </div>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Clients and Partners</h2>
+    <div class="scrollCarousel">
+        <div class="scrollCarousel--contents">
+            {{ range .Params.partners }}
+                <a href="{{ .linkUrl }}"><img src="{{ .imageUrl }} "></a>
             {{ end }}
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="l-section">
-        <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Clients and Partners</h2>
-        <div class="scrollCarousel">
-            <div class="scrollCarousel--contents">
-                {{ range .Params.partners }}
-                    <a href="{{ .linkUrl }}"><img src="{{ .imageUrl }} "></a>
-                {{ end }}
-            </div>
-        </div>
-    </section>
-
-    {{ partial "instagram-feed" }}
+{{ partial "instagram-feed" }}
 
 {{ end }}
