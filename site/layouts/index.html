@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    {{ partial "homepage-header" }}
+    {{ partial "homepage-header" (dict "items" .Params.carousel) }}
 
     {{ partial "text-with-heading" (dict
         "heading" "Bay Area Mural Program"
