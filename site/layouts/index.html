@@ -7,7 +7,13 @@
         "text" "BAMP is a nonprofit organization of local artists dedicated to facilitating and creating public art.  Our vision is to turn bare, blighted walls into artistic gateways into the community's surrounding environment."
     ) }}
 
-    {{ partial "metrics" }}
+    <section class="l-section">
+        <div class="gridBox gridBox-col4 gridBox-col4-collapse gridBox-center">
+            {{ range .Params.metrics }}
+                {{ partial "metric" . }}
+            {{ end }}
+        </div>
+    </section>
 
     {{ partial "featured" (dict
         "title" "Plywood Murals"
