@@ -22,7 +22,13 @@
     </div>
 </section>
 
-{{ partial "faqs-artwork" }}
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
+       {{ range .Params.faqs }}
+           {{ partial "faq" . }}
+       {{ end }}
+</section>
+
 
 <section class="l-section">
     <div class="gridBox gridBox-col3 gridBox-center">
