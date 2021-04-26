@@ -1,0 +1,6 @@
+<div class="teamMember">
+    <div class="teamMember--photo"><img src="{{ .imageUrl }}"></div>
+    <div class="teamMember--name">{{ .name }}</div>
+    <div class="teamMember--role">{{ .role | safeHTML }}</div>
+    <a class="teamMember--icon" href="mailto:{{ .email }}"><img src="/img/icons/mail.svg"></a>
+</div>
