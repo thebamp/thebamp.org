@@ -1,53 +1,66 @@
-<footer class="bg-black ph3 pv4 white">
+<footer>
+    <div class="footer">
+        <div class="footer--panel">
+            <div class="bizCard">
+                <div class="bizCard--logoContainer">
+                    <a href="index.html">
+                        <img class="bizCard--logo" src="/img/logo-gold-border.svg">
+                    </a>
+                    <div class="u-onlyMobile">
+                        <a class="btnLink" href="mailto: bampteamad@gmail.com">Contact</a><br><br>
+                        <a class="btnLink btnLink-red" href="https://donorbox.org/bay-area-mural-donations">Donate</a>
+                    </div>
+                </div>
+                <p class="bizCard--title">BAY AREA MURAL PROGRAM</p>
+                <p class="bizCard--address u-onlyDesktop">
+                    3463 San Pablo Ave. <br>
+                    Oakland, CA 94608 <br>
+                    (510) 965-5315
+                </p>
+                <p class="bizCard--address u-onlyMobile">
+                    3463 San Pablo Ave., Oakland, CA 94608 <br>
+                    (510) 965-5315
+                </p>
+                <p class="bizCard--501c3">A 501(c)(3) Non-Profit Organization</p>
+            </div>
+        </div>
 
-	<div class="mw7 center pt3">
+        <hr class="footer--rule">
 
-		<div class="measure-narrow center mb4">
+        <div class="footer--panel">
+            <nav class="footerNav">
+                <div class="footerNav--column">
+                    <a class="footerNav--link" href="artwork.html">Artwork</a>
+                    <a class="footerNav--link" href="about_us.html">About Us</a>
+                    <a class="footerNav--link" href="events.html">Events</a>
+                    <a class="footerNav--link" href="#">Shop</a>
+                    <span class="u-onlyDesktop"><a class="btnLink" href="mailto: bampteamad@gmail.com">Contact</a></span>
+                </div>
+                <div class="footerNav--column">
+                    <a class="footerNav--link" href="services.html">Services</a>
+                    <a class="footerNav--link" href="get_involved.html">Get Involved</a>
+                    <a class="footerNav--link" href="programs.html">Programs</a>
+                    <a class="footerNav--link">&nbsp;</a> <!-- spacer -->
+                    <span class="u-onlyDesktop"><a class="btnLink btnLink-red" href="https://donorbox.org/bay-area-mural-donations">Donate</a></span>
+                </div>
+            </nav>
+        </div>
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
+        <hr class="footer--rule">
 
+        <div class="footer--panel">
 			{{ partial "newsletter-form" . }}
+        </div>
+    </div>
 
-		</div>
+    <div class="subFooter">
+        {{ partial "social-icon" (dict "src" "mail.svg"      "link" "mailto:bampteamad@gmail.com") }}
+        {{ partial "social-icon" (dict "src" "instagram.svg" "link" "https://www.instagram.com/bayareamuralpro/") }}
+        {{ partial "social-icon" (dict "src" "facebook.svg"  "link" "https://www.facebook.com/TheBamp.org") }}
+        {{ partial "social-icon" (dict "src" "youtube.svg"   "link" "https://www.youtube.com/channel/UCJTS2t_Ud1ovJnftAyBqs-A") }}
+        {{ partial "social-icon" (dict "src" "linkedin.svg"  "link" "https://www.linkedin.com/company/bayareamuralprogram/") }}
+        {{ partial "social-icon" (dict "src" "yelp.svg"      "link" "https://www.yelp.com/biz/the-bay-area-mural-program-oakland") }}
 
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
+        <p class="subFooter--copyright">© 2021 Bay Area Mural Program</p>
+    </div>
 </footer>
-
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
