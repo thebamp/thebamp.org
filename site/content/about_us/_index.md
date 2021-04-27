@@ -7,6 +7,7 @@ pageHeader:
         public art. Our vision is to turn bare, blighted walls into artistic gateways into the
         community's surrounding environment.
     imageUrl: /img/about_us/about-us.jpg
+    boxColor: red
 missionStatement: >
     Our program is constantly establishing new standards of excellence in the practice of public and contemporary art creation and exhibition.
     Our collaborative dialogue processes empower artists and communities to address and organize issues in the community.

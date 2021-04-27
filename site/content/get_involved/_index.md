@@ -6,6 +6,7 @@ pageHeader:
   caption: >
     Want to help support our mission of turning bare walls into artistic gateways?
     There are many ways to get involved with BAMP!
+  boxColor: red
 cards:
   - title: Art / Mural Class
     description: BAMP believes it is our duty to inspire the next generation of leaders in our society. <strong>Our Art Classes are on hold due to COVID-19.</strong>

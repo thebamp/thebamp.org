@@ -4,6 +4,7 @@ pageHeader:
   title: Programs
   caption: Register for a BAMP class today!
   imageUrl: /img/programs/programs.jpeg
+  boxColor: blue
 programs:
   - title: Adult Figure Drawing
     text: >
