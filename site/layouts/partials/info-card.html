@@ -1,0 +1,8 @@
+<div class="infoCard box box-{{ .boxColor }}">
+    <img class="infoCard--img" src="{{ .imageUrl }}">
+    <div class="infoCard--caption">
+        <p class="infoCard--title">{{ .title }}</p>
+        <p class="infoCard--text">{{ .description | safeHTML }}</p>
+        <a class="btnLink" href="{{ .linkUrl }}">{{ .linkText }}</a>
+    </div>
+</div>
