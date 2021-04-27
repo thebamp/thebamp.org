@@ -8,6 +8,7 @@ murals:
     location: Downtown Oakland
     thumbUrl: /img/artwork/thumbnails/blmoak.jpg
     title: BLM / Oakland
+    boxColor: red
   - id: blmsf
     date: July 2020
     imageUrl: /img/artwork/blmsf.jpg
@@ -15,6 +16,7 @@ murals:
     location: African American Art and Culture Complex, SF
     thumbUrl: /img/artwork/thumbnails/blmsf.jpg
     title: BLM / SF
+    boxColor: blue
   - id: nipsey
     date: July 2020
     imageUrl: /img/artwork/nipsey.jpg
@@ -22,6 +24,7 @@ murals:
     location: Grand Express Market, Oakland
     thumbUrl: /img/artwork/thumbnails/nipsey.jpg
     title: Nipsey
+    boxColor: yellow
   - id: naomais
     date: July 2020
     imageUrl: /img/artwork/naomais.png
@@ -29,6 +32,7 @@ murals:
     location: Webster Street, Oakland
     thumbUrl: /img/artwork/thumbnails/naomais.png
     title: Nao Mais
+    boxColor: yellow
   - id: lodestar
     date: April 2020
     imageUrl: /img/artwork/lodestar.jpg
@@ -36,6 +40,7 @@ murals:
     location: Lodestar Public School, Oakland
     thumbUrl: /img/artwork/thumbnails/lodestar.jpg
     title: Oakland Love the New Future
+    boxColor: red
   - id: authoak
     date: December 2018
     imageUrl: /img/artwork/authoak.png
@@ -43,6 +48,7 @@ murals:
     location: Whole Foods Market, Oakland
     thumbUrl: /img/artwork/thumbnails/authoak.png
     title: Authentically Oakland
+    boxColor: blue
   - id: gateway
     date: December 2015
     imageUrl: /img/artwork/gateway.jpg
@@ -51,6 +57,7 @@ murals:
     text: Awarded grant.
     thumbUrl: /img/artwork/thumbnails/gateway.jpg
     title: Gateway to Vallejo
+    boxColor: blue
   - id: kapor
     date: August 2020
     imageUrl: /img/artwork/kapor.jpg
@@ -58,6 +65,7 @@ murals:
     location: Kapor Center, Oakland
     thumbUrl: /img/artwork/thumbnails/kapor.jpg
     title: Justice for My Ancestors
+    boxColor: yellow
   - id: farmacy
     date: October 2019
     imageUrl: /img/artwork/digdeep.jpg
@@ -65,6 +73,7 @@ murals:
     location: Dig Deep Farm, Oakland
     thumbUrl: /img/artwork/thumbnails/digdeep.jpg
     title: The Farmacy
+    boxColor: red
   - id: ahome
     date: November 2017
     imageUrl: /img/artwork/ahome.jpg
@@ -72,6 +81,7 @@ murals:
     location: Chestnut Street, Oakland
     thumbUrl: /img/artwork/thumbnails/ahome.jpg
     title: Everyone Deserves a Home
+    boxColor: red
   - id: seer
     date: October 2018
     imageUrl: /img/artwork/seer.jpg
@@ -81,6 +91,7 @@ murals:
     title: The Seer
     date: October 2018
     leadArtist: Rachel Wolfe-Goldsmith
+    boxColor: blue
   - id: literacy
     date: March 2019
     imageUrl: /img/artwork/literacy.jpg
@@ -88,6 +99,7 @@ murals:
     location: MLK Elementary School, Oakland
     thumbUrl: /img/artwork/thumbnails/literacy.jpg
     title: Literacy Is the Key to Life
+    boxColor: yellow
   - id: fillmore
     date: May 2019
     imageUrl: /img/artwork/fillmore.jpg
@@ -95,6 +107,7 @@ murals:
     location: Rosa Parks Center, SF
     thumbUrl: /img/artwork/thumbnails/fillmore.jpg
     title: Spirit of the Fillmore
+    boxColor: yellow
   - id: rooted
     date: June 2019
     imageUrl: /img/artwork/rooted.jpg
@@ -102,6 +115,7 @@ murals:
     location: Coliseum Way, Oakland
     thumbUrl: /img/artwork/thumbnails/rooted.jpg
     title: Rooted in Oakland
+    boxColor: red
   - id: indigenized
     date: July 2019
     imageUrl: /img/artwork/indigenized.jpg
@@ -109,6 +123,7 @@ murals:
     location: Standing Rock Reservation, ND
     thumbUrl: /img/artwork/thumbnails/indigenized.jpg
     title: Indigenized Energy
+    boxColor: blue
   - id: bethepower
     date: July 2019
     imageUrl: /img/artwork/bethepower.jpg
@@ -116,6 +131,7 @@ murals:
     location: East Oakland Youth Development Center
     thumbUrl: /img/artwork/thumbnails/bethepower.jpg
     title: Be the Power
+    boxColor: blue
   - id: youthemp
     date: October 2020
     imageUrl: /img/artwork/youthemp.jpg
@@ -123,6 +139,7 @@ murals:
     location: 22nd & Broadway, Oakland
     thumbUrl: /img/artwork/thumbnails/youthemp.jpg
     title: Youth Empowerment
+    boxColor: yellow
   - id: headup
     date: December 2020
     imageUrl: /img/artwork/headup.jpg
@@ -130,6 +147,7 @@ murals:
     location: 19th & Broadway, Oakland
     thumbUrl: /img/artwork/thumbnails/headup.jpg
     title: Keep Your Head Up / Woman in Water
+    boxColor: red
   - id: sph
     date: December 2020
     imageUrl: /img/artwork/sph.jpg
@@ -137,6 +155,7 @@ murals:
     location: San Pablo Avenue, Oakland
     thumbUrl: /img/artwork/thumbnails/sph.jpg
     title: San Pablo Hotel
+    boxColor: red
   - id: aaacc
     date: December 2019
     imageUrl: /img/artwork/aaacc.jpg
@@ -144,6 +163,7 @@ murals:
     location: African American Art and Culture Complex, SF
     thumbUrl: /img/artwork/thumbnails/aaacc.jpg
     title: Floral Offering
+    boxColor: blue
   - id: fairbanks
     date: December 2019
     imageUrl: /img/artwork/fairbanks.jpg
@@ -151,6 +171,7 @@ murals:
     location: Fairbanks Farms, Covelo
     thumbUrl: /img/artwork/thumbnails/fairbanks.jpg
     title: Fairbanks Farms
+    boxColor: yellow
 faqs:
   - question: How much does a mural cost?
     answer: "Pricing is based on dimensions, details, participation. Here is the <a href='https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform'>link</a> to the consultation form."
