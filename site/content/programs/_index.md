@@ -39,4 +39,7 @@ programs:
     price: $00.00
     imageUrl: /img/programs/brushes-and-cans.jpg
     boxColor: blue 
+faqs:
+  - question: How can I volunteer?
+    answer: "Email <a href='mailto:bampvolunteer@gmail.com'>bampvolunteer@gmail.com</a> to sign up for our volunteer email list."
 ---
