@@ -17,4 +17,31 @@
    {{ end }}
 </section>
 
+<!-- TODO: combine with youtube partial -->
+<section class="l-section">
+    <center>
+        <div class="fixedRatio fixedRatio-60" style="max-width: 1000px;">
+            <iframe
+                id="programsVideo"
+                class="fixedRatio--contents"
+                src="https://www.youtube.com/embed/BfKU5g2xqd8?controls=0"
+                frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </center>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-sub sectionHeading-centered">Here are some pictures from our classes!</h2>
+    <p class="l-center u-text-medium u-padBottom">
+        Art has the power to open doors and therefore is an essential component of
+        each young person’s education The Bay Area Mural Program takes great pride
+        in offering different levels of art and mural training for all ages!
+    </p>
+
+    {{ partial "photo-grid" (dict "items" .Params.photos) }}
+</section>
+
 {{ end }}
