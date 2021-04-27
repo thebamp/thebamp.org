@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ with .Params.pageHeader }}
+    {{ partial "page-header" . }}
+{{ end }}
+
+<section class="l-section">
+    {{ range .Params.cards }}
+        {{ partial "info-card" . }}
+    {{ end }}
+</section>
+
+{{ end }}
