@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section class="l-section l-center">
-    <h2 class="sectionHeading sectionHeading-spaced">Events</h2>
+    <h2 class="sectionHeading">Events</h2>
 </section>
 
 <section class="l-section">
@@ -31,6 +31,11 @@
             {{ partial "event" . }}
         {{ end }}
     </div>
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-sub sectionHeading-spaced sectionHeading-centered">Past Event Photos!</h2>
+    {{ partial "photo-grid" (dict "items" .Params.photos) }}
 </section>
 
 {{ end }}
