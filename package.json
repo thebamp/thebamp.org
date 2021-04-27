@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "the-bamp-dot-org",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "Official website of The Bay Area Mural Program",
+  "repository": "johncip/one-click-hugo-cms",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
