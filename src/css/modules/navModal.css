@@ -34,11 +34,19 @@
     font-weight: bold;
 }
 
+.navModal--link:hover {
+    color: var(--red);
+}
+
 .navModal--close {
     position: fixed;
     font-size: 60px;
     right: 12px;
     top: -2px;
+}
+
+.navModal--close:hover {
+    cursor: pointer;
 }
 
 .navModal .btnLink {
