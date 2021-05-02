@@ -80,3 +80,26 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+      - file: "site/content/artwork/_index.md"
+        label: "Artwork Page"
+        name: "artwork"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: Murals
+            name: murals
+            widget: list
+            fields:
+              - {label: ID, name: id, widget: string}
+              - {label: Date, name: date, widget: string}
+              - {label: Image_URL, name: imageUrl, widget: image}
+              - {label: Lead_artist, name: leadArtist, widget: string}
+              - {label: Location, name: location, widget: string}
+              - {label: Thumbnail_URL, name: thumbUrl, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Box_color, name: boxColor, widget: string}
+          - label: FAQs (Artwork)
+            name: faqs
+            widget: list
+            fields:
+              - {label: Question, name: question, widget: string}
+              - {label: Answer, name: answer, widget: string}
