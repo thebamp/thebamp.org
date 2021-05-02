@@ -89,8 +89,6 @@ murals:
     location: 7th Street, Oakland
     thumbUrl: /img/artwork/thumbnails/seer.jpg
     title: The Seer
-    date: October 2018
-    leadArtist: Rachel Wolfe-Goldsmith
     boxColor: blue
   - id: literacy
     date: March 2019
