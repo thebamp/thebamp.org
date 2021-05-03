@@ -8,6 +8,6 @@ export default ({src}) =>
             frameBorder="0"
             src={src}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen>
-        </iframe>
+            allowFullScreen
+        />
     </div>

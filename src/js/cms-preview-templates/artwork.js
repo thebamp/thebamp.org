@@ -5,7 +5,7 @@ import GridBox from "./components/grid-box"
 import MapBox from "./components/map-box"
 import WantAMural from "./components/want-a-mural"
 import WeSeekTo from "./components/we-seek-to"
-import Youtube from "./components/youtube"
+import YouTube from "./components/youtube"
 
 export default ({entry, getAsset}) => {
     const faqs = entry.getIn(["data", "faqs"]) || []
@@ -37,7 +37,7 @@ export default ({entry, getAsset}) => {
 
         <section className="l-section">
             <GridBox columns={2} collapse>
-                <Youtube src="https://www.youtube.com/embed/OaKg3WeMKrI"/>
+                <YouTube src="https://www.youtube.com/embed/OaKg3WeMKrI"/>
                 <WantAMural/>
             </GridBox>
         </section>
