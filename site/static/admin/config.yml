@@ -108,7 +108,7 @@ collections: # A list of collections the CMS should be able to edit
 
       # ---  about us page ---
       - file: "site/content/about_us/_index.md"
-        label: "About Us"
+        label: "About Us Page"
         name: "about_us"
         fields:
           - name: pageHeader
