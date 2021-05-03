@@ -155,3 +155,38 @@ collections: # A list of collections the CMS should be able to edit
               - {label: URL, name: linkUrl, widget: string}
               - {label: Publication, name: publication, widget: string}
               - {label: Text, name: text, widget: text}
+
+      # ---  programs page ---
+      - file: "site/content/programs/_index.md"
+        label: "Programs Page"
+        name: "programs"
+        fields:
+          - name: pageHeader
+            label: "Page Header (Programs)"
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Caption, name: caption, widget: text}
+            - {label: Image, name: imageUrl, widget: image}
+            - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - name: programs
+            label: Programs
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Details, name: details, widget: string}
+              - {label: Price, name: price, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - name: faqs
+            label: FAQs (Programs)
+            widget: list
+            fields:
+              - {label: Question, name: question, widget: string}
+              - {label: Answer, name: answer, widget: markdown}
+          - name: photos
+            label: "Photos"
+            widget: list
+            fields:
+              - {label: Image, name: imageUrl, widget: image}
