@@ -84,3 +84,8 @@ globals:
   process: true
   ENV: true
   module: true
+
+overrides:
+  files: ["src/js/cms-preview-templates/*"]
+  rules:
+    no-unused-vars: 0
