@@ -34,30 +34,30 @@ export default ({entry, getAsset}) => {
             <MissionStatement text={entry.getIn(["data", "missionStatement"])}/>
         </section>
 
-        <section class="l-section">
-            <h2 class="sectionHeading sectionHeading-spaced">Our Team</h2>
+        <section className="l-section">
+            <h2 className="sectionHeading sectionHeading-spaced">Our Team</h2>
             <GridBox columns={4} center>
                 {teamMembers.map(buildTeamMember(getAsset))}
             </GridBox>
         </section>
 
-        <section class="l-section">
-            <h2 class="sectionHeading sectionHeading-spaced">Board of Directors</h2>
+        <section className="l-section">
+            <h2 className="sectionHeading sectionHeading-spaced">Board of Directors</h2>
             <GridBox columns={3} center>
                 {directors.map(buildTeamMember(getAsset))}
             </GridBox>
         </section>
 
-        <section class="l-section">
-            <h2 class="sectionHeading sectionHeading-spaced">Advisory Committee</h2>
+        <section className="l-section">
+            <h2 className="sectionHeading sectionHeading-spaced">Advisory Committee</h2>
             <GridBox columns={3} center>
                 {advisors.map(buildTeamMember(getAsset))}
             </GridBox>
         </section>
 
-        <section class="l-section">
-            <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Hot off the Press</h2>
-            <div class="gridBox gridBox-col1 gridBox-center">
+        <section className="l-section">
+            <h2 className="sectionHeading sectionHeading-centered sectionHeading-spaced">Hot off the Press</h2>
+            <div className="gridBox gridBox-col1 gridBox-center">
                 {clippings.map((clip, i) =>
                     <Press
                         boxColor={clip.get("boxColor")}
