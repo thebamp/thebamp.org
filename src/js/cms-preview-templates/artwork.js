@@ -23,7 +23,9 @@ export default ({entry, getAsset}) => {
             <GridBox columns={3} center>
                 {murals.map((mural, i) => {
                     return <button className={`muralThumbnail box box-${mural.get("boxColor")}`} key={i}>
-                        <div className="muralThumbnail--img"><img src={getAsset(mural.get("thumbUrl"))}/></div>
+                        <div className="muralThumbnail--img">
+                            <img src={getAsset(mural.get("thumbUrl"))}/>
+                        </div>
                         <div className="muralThumbnail--caption">
                             <div className="muralThumbnail--location">{mural.get("location")}</div>
                             <div className="muralThumbnail--name">{mural.get("title")}</div>
