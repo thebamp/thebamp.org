@@ -105,3 +105,53 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Question, name: question, widget: string}
               - {label: Answer, name: answer, widget: markdown}
+
+      # ---  about us page ---
+      - file: "site/content/about_us/_index.md"
+        label: "About Us"
+        name: "about_us"
+        fields:
+          - name: pageHeader
+            label: "Page Header (About Us)"
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Caption, name: caption, widget: text}
+            - {label: Image, name: imageUrl, widget: image}
+            - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - {label: "Mission Statement", name: missionStatement, widget: text}
+          - name: teamMembers
+            label: "Our Team"
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Email, name: email, widget: string}
+          - label: "Board of Directors"
+            name: directors
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Email, name: email, widget: string}
+          - label: "Advisory Committe"
+            name: advisors
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Email, name: email, widget: string}
+          - label: Press
+            name: press
+            widget: list
+            fields:
+              - {label: Headline, name: headline, widget: string}
+              - {label: Date, name: date, widget: string}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: URL, name: linkUrl, widget: string}
+              - {label: Publication, name: publication, widget: string}
+              - {label: Text, name: text, widget: text}

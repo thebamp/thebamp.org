@@ -1,0 +1,12 @@
+import React from "react"
+
+export default ({boxColor, linkUrl, imageUrl, publication, headline, date, text}) =>
+    <a class={`press box box-${boxColor}`} href={linkUrl}>
+        <img class="press--img" src={imageUrl}/>
+        <div class="press--container">
+            <div class="press--name">{publication}</div>
+            <p class="press--headline">{headline}</p>
+            <p class="press--date">{date}</p>
+            <p class="press--text">{text}</p>
+        </div>
+    </a>

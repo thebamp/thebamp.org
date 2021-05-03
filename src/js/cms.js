@@ -20,6 +20,9 @@ CMS.registerPreviewTemplate("contact", ContactPreview);
 // ----- end demo stuff -----
 
 import ArtworkPreview from "./cms-preview-templates/artwork";
+import AboutUsPreview from "./cms-preview-templates/about-us";
+
 CMS.registerPreviewTemplate("artwork", ArtworkPreview);
+CMS.registerPreviewTemplate("about_us", AboutUsPreview);
 
 CMS.init();
