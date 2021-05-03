@@ -102,4 +102,4 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Question, name: question, widget: string}
-              - {label: Answer, name: answer, widget: string}
+              - {label: Answer, name: answer, widget: markdown}

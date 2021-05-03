@@ -172,11 +172,18 @@ murals:
     boxColor: yellow
 faqs:
   - question: How much does a mural cost?
-    answer: "Pricing is based on dimensions, details, participation. Here is the <a href='https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform'>link</a> to the consultation form."
-  - question: "How can I support my local artist?"
-    answer: "<a href='https://donorbox.org/bay-area-mural-donations'>Donate.</a> You can contact us <a href='mailto: bampteamad@gmail.com'>here.</a>"
-  - question: "How can I work with my city to install a mural in my community?"
-    answer: "Start with contacting the property owner and sharing your concept/idea for the mural <a href='https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform'>here.</a>"
-  - question: "Do you paint house murals?"
-    answer: "Yes! Please fill out our <a href='https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform'>consultation form.</a>"
+    answer: >
+      Pricing is based on dimensions, details, participation. Here is the
+      [link](https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform)
+      to the consultation form.
+  - question: How can I support my local artist?
+    answer: >
+      [Donate](https://donorbox.org/bay-area-mural-donations).
+      You can contact us [here](mailto:bampteamad@gmail.com).
+  - question: How can I work with my city to install a mural in my community?
+    answer: >
+      Start with contacting the property owner and sharing your concept/idea for the mural
+      [here](https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform).
+  - question: Do you paint house murals?
+    answer: Yes! Please fill out our [consultation form](https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform).
 ---
