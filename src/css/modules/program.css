@@ -25,8 +25,14 @@
 }
 
 .program--text {
-    color: var(--dark-gray);
     align-self: flex-start;
+}
+
+/* done this way to let markdownify add tags */
+.program--text,
+.program--text li,
+.program--text p {
+    color: var(--dark-gray);
     line-height: 133%;
     font-size: 20px;
 }
@@ -79,7 +85,7 @@
         font-size: 18px;
     }
 
-    .program--text {
+    .program--text p {
         font-size: 16px;
     }
 
