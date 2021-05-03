@@ -30,10 +30,16 @@
 }
 
 .infoCard--text {
-    font-size: 20px;
-    line-height: 150%;
     margin: 0;
     padding-bottom: 1.5em;
+}
+
+/* uses markdownify */
+.infoCard--text,
+.infoCard--text li,
+.infoCard--text p {
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .infoCard .btnLink {

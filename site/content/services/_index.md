@@ -16,7 +16,7 @@ cards:
     imageUrl: /img/services/drawing-class-1.jpg
     description: >
         Learn fundamental techniques and skills for mural painting with BAMP's Lead Artists.
-        <strong>Please note that in-person classes are on hold due to COVID-19.</strong>        
+        **Please note that in-person classes are on hold due to COVID-19.**
     linkUrl:
     linkText: Apply
   - title: Mural Painting
@@ -33,7 +33,7 @@ cards:
     imageUrl: /img/services/screenprint-class.jpg
     description: >
         We now offer screen printing too! To get started on a screen printing consultation with us,
-        click the link below to fill out our short form.        
+        click the link below to fill out our short form.
     linkUrl: https://forms.gle/gHz7PiYWMstd7ocR9
     linkText: Printing Form
   - title: Don't see it here?
