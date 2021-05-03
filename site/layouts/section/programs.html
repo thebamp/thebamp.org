@@ -10,13 +10,6 @@
     {{ end }}
 </section>
 
-<section class="l-section">
-    <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
-   {{ range .Params.faqs }}
-       {{ partial "faq" . }}
-   {{ end }}
-</section>
-
 <!-- TODO: combine with youtube partial -->
 <section class="l-section">
     <center>
@@ -42,6 +35,13 @@
     </p>
 
     {{ partial "photo-grid" (dict "items" .Params.photos) }}
+</section>
+
+<section class="l-section">
+    <h2 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
+   {{ range .Params.faqs }}
+       {{ partial "faq" . }}
+   {{ end }}
 </section>
 
 {{ end }}
