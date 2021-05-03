@@ -22,9 +22,11 @@ CMS.registerPreviewTemplate("contact", ContactPreview);
 import ArtworkPreview from "./cms-preview-templates/artwork";
 import AboutUsPreview from "./cms-preview-templates/about-us";
 import ProgramsPreview from "./cms-preview-templates/programs";
+import EventsPreview from "./cms-preview-templates/events";
 
 CMS.registerPreviewTemplate("artwork", ArtworkPreview);
 CMS.registerPreviewTemplate("about_us", AboutUsPreview);
 CMS.registerPreviewTemplate("programs", ProgramsPreview);
+CMS.registerPreviewTemplate("events", EventsPreview);
 
 CMS.init();

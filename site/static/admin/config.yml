@@ -190,3 +190,23 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Image, name: imageUrl, widget: image}
+
+      # ---  events page ---
+      - file: "site/content/events/_index.md"
+        label: "Events Page"
+        name: "events"
+        fields:
+          - name: events
+            label: Events
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: markdown}
+              - {label: Date, name: date, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - name: photos
+            label: "Photos"
+            widget: list
+            fields:
+              - {label: Image, name: imageUrl, widget: image}
