@@ -1,9 +1,10 @@
 import React from "react"
 import ReactMarkdown from "react-markdown"
 
+import GridBox from "./components/grid-box"
+import MapBox from "./components/map-box"
 import WantAMural from "./components/want-a-mural"
 import WeSeekTo from "./components/we-seek-to"
-import MapBox from "./components/map-box"
 import Youtube from "./components/youtube"
 
 export default ({entry, getAsset}) => {
@@ -12,13 +13,13 @@ export default ({entry, getAsset}) => {
 
     return <React.Fragment>
         <section className="l-section">
-            <div className="gridBox gridBox-col2 gridBox-col2-collapse">
+            <GridBox columns={2} collapse>
                 <WeSeekTo/>
                 <MapBox/>
-            </div>
+            </GridBox>
         </section>
         <section className="l-section">
-            <div className="gridBox gridBox-col3 gridBox-center">
+            <GridBox columns={3} center>
                 {murals.map((mural, i) => {
                     return <button className={`muralThumbnail box box-${mural.get("boxColor")}`} key={i}>
                         <div className="muralThumbnail--img"><img src={getAsset(mural.get("thumbUrl"))}/></div>
@@ -28,13 +29,13 @@ export default ({entry, getAsset}) => {
                         </div>
                     </button>
                 })}
-            </div>
+            </GridBox>
         </section>
         <section className="l-section">
-            <div className="gridBox gridBox-col2 gridBox-col2-collapse">
+            <GridBox columns={2} collapse>
                 <Youtube src="https://www.youtube.com/embed/OaKg3WeMKrI"/>
                 <WantAMural/>
-            </div>
+            </GridBox>
         </section>
         <section className="l-section">
             <h2 className="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
