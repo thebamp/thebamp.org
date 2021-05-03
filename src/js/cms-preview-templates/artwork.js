@@ -18,6 +18,7 @@ export default ({entry, getAsset}) => {
                 <MapBox/>
             </GridBox>
         </section>
+
         <section className="l-section">
             <GridBox columns={3} center>
                 {murals.map((mural, i) => {
@@ -31,12 +32,14 @@ export default ({entry, getAsset}) => {
                 })}
             </GridBox>
         </section>
+
         <section className="l-section">
             <GridBox columns={2} collapse>
                 <Youtube src="https://www.youtube.com/embed/OaKg3WeMKrI"/>
                 <WantAMural/>
             </GridBox>
         </section>
+
         <section className="l-section">
             <h2 className="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
             {faqs.map((faq, i) =>
