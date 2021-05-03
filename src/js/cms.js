@@ -14,4 +14,8 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+
+import ArtworkPreview from "./cms-preview-templates/artwork";
+CMS.registerPreviewTemplate("artwork", ArtworkPreview);
+
 CMS.init();
