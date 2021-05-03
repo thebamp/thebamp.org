@@ -1,6 +1,6 @@
 import React from "react"
-import ReactMarkdown from "react-markdown"
 
+import Faq from "./components/faq"
 import GridBox from "./components/grid-box"
 import MapBox from "./components/map-box"
 import WantAMural from "./components/want-a-mural"
@@ -40,15 +40,11 @@ export default ({entry, getAsset}) => {
         <section className="l-section">
             <h2 className="sectionHeading sectionHeading-centered sectionHeading-spaced">Frequently Asked Questions</h2>
             {faqs.map((faq, i) =>
-                <div className="faq faq-is-open" key={i}>
-                    <button className="faq--questionBox">
-                        <div className="faq--question">{faq.get("question")}</div>
-                        <div className="faq--plus">+</div>
-                    </button>
-                    <div className="faq--answer">
-                        <ReactMarkdown>{faq.get("answer")}</ReactMarkdown>
-                    </div>
-                </div>
+                <Faq
+                    key={i}
+                    question={faq.get("question")}
+                    answer={faq.get("answer")}
+                />
             )}
         </section>
     </React.Fragment>
