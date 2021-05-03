@@ -80,6 +80,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+
+      # ---  artwork page ---
       - file: "site/content/artwork/_index.md"
         label: "Artwork Page"
         name: "artwork"
@@ -91,12 +93,12 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: ID, name: id, widget: string}
               - {label: Date, name: date, widget: string}
-              - {label: Image_URL, name: imageUrl, widget: image}
-              - {label: Lead_artist, name: leadArtist, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: "Lead Artist", name: leadArtist, widget: string}
               - {label: Location, name: location, widget: string}
-              - {label: Thumbnail_URL, name: thumbUrl, widget: image}
+              - {label: "Thumbnail Image", name: thumbUrl, widget: image}
               - {label: Title, name: title, widget: string}
-              - {label: Box_color, name: boxColor, widget: string}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
           - label: FAQs (Artwork)
             name: faqs
             widget: list
