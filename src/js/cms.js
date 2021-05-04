@@ -24,11 +24,13 @@ import AboutUsPreview from "./cms-preview-templates/about-us";
 import ProgramsPreview from "./cms-preview-templates/programs";
 import EventsPreview from "./cms-preview-templates/events";
 import ServicesPreview from "./cms-preview-templates/services";
+import GetInvolvedPreview from "./cms-preview-templates/get-involved";
 
 CMS.registerPreviewTemplate("artwork", ArtworkPreview);
 CMS.registerPreviewTemplate("about_us", AboutUsPreview);
 CMS.registerPreviewTemplate("programs", ProgramsPreview);
 CMS.registerPreviewTemplate("events", EventsPreview);
 CMS.registerPreviewTemplate("services", ServicesPreview);
+CMS.registerPreviewTemplate("get_involved", GetInvolvedPreview);
 
 CMS.init();

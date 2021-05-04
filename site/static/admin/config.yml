@@ -234,3 +234,33 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Action URL", name: linkUrl, widget: string}
               - {label: "Action Text", name: linktext, widget: string}
               - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+
+      # ---  get involved page ---
+      - file: "site/content/get_involved/_index.md"
+        label: "Get Involved Page"
+        name: "get_involved"
+        fields:
+          - name: pageHeader
+            label: "Page Header (Get Involved)"
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Caption, name: caption, widget: text}
+            - {label: Image, name: imageUrl, widget: image}
+            - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - name: cards
+            label: Info Cards
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: Description, name: description, widget: markdown}
+              - {label: "Action URL", name: linkUrl, widget: string}
+              - {label: "Action Text", name: linktext, widget: string}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - label: FAQs (Get Involved)
+            name: faqs
+            widget: list
+            fields:
+              - {label: Question, name: question, widget: string}
+              - {label: Answer, name: answer, widget: markdown}
