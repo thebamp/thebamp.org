@@ -11,6 +11,8 @@ import EventsPreview from "./cms-preview-templates/events";
 import ServicesPreview from "./cms-preview-templates/services";
 import GetInvolvedPreview from "./cms-preview-templates/get-involved";
 
+CMS.registerPreviewStyle(styles, { raw: true });
+
 CMS.registerPreviewTemplate("artwork", ArtworkPreview);
 CMS.registerPreviewTemplate("about_us", AboutUsPreview);
 CMS.registerPreviewTemplate("programs", ProgramsPreview);
