@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: thebamp/thebamp.org
+  branch: master
 
 media_folder: "site/static/img"
 public_folder: "img"
