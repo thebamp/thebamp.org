@@ -41,6 +41,7 @@ export default ({entry, getAsset}) => {
             <GridBox columns={2} center collapse>
                 {events.map((ev, i) =>
                     <Event
+                        key={i}
                         boxColor={ev.get("boxColor")}
                         imageUrl={getAsset(ev.get("imageUrl"))}
                         title={ev.get("title")}

@@ -60,6 +60,7 @@ export default ({entry, getAsset}) => {
             <div className="gridBox gridBox-col1 gridBox-center">
                 {clippings.map((clip, i) =>
                     <Press
+                        key={i}
                         boxColor={clip.get("boxColor")}
                         linkUrl={clip.get("linkUrl")}
                         imageUrl={clip.get("imageUrl")}

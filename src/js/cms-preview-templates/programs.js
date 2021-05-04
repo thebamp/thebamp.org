@@ -22,8 +22,9 @@ export default ({entry, getAsset}) => {
         />
 
         <section className="l-section">
-            {programs.map(pr =>
+            {programs.map((pr, i) =>
                 <Program
+                    key={i}
                     boxColor={pr.get("boxColor")}
                     title={pr.get("title")}
                     text={pr.get("text")}

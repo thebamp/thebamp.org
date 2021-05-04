@@ -18,6 +18,7 @@ export default ({entry, getAsset}) => {
         <section className="l-section">
             {cards.map((card, i) =>
                 <InfoCard
+                    key={i}
                     title={card.get("title")}
                     imageUrl={getAsset(card.get("imageUrl"))}
                     description={card.get("description")}
