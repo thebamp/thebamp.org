@@ -9,14 +9,14 @@ pageHeader:
   boxColor: red
 cards:
   - title: Art / Mural Class
-    description: BAMP believes it is our duty to inspire the next generation of leaders in our society. <strong>Our Art Classes are on hold due to COVID-19.</strong>
-    linkUrl:
+    description: BAMP believes it is our duty to inspire the next generation of leaders in our society. **Our Art Classes are on hold due to COVID-19.**
+    linkUrl: #
     linkText: Apply
     imageUrl: /img/get_involved/art-class.jpg
     boxColor: yellow
   - title: Volunteer
     description: Volunteers help us achieve our mission and ignite change throughout the city as we engage in public art and creative programing. Our volunteers serve as ambassadors of the organization with the public through events, paint days, and arts advocacy.
-    linkUrl:
+    linkUrl: #
     linkText: Apply
     imageUrl: /img/get_involved/volunteer.jpg
     boxColor: blue
@@ -27,7 +27,7 @@ cards:
     imageUrl: /img/get_involved/spray-can-art-class.jpeg
     boxColor: red
   - title: Become a Partner
-    description: You can stay up-to-date and engaged with BAMP by sending us an email or checking us out on <a href="https://www.instagram.com/bayareamuralpro/">Instagram</a>.
+    description: You can stay up-to-date and engaged with BAMP by sending us an email or checking us out on [Instagram](https://www.instagram.com/bayareamuralpro/).
     linkUrl: mailto:bampteamad@gmail.com
     linkText: Contact Us
     imageUrl: /img/get_involved/partner.jpg
@@ -36,13 +36,14 @@ faqs:
   - question: How do I become a BAMP Team Member?
     answer: We are currently not accepting new team members.
   - question: Where can I find BAMP Murals?
-    answer: You can find our murals on this <a href="https://www.google.com/maps/d/edit?mid=1YPg9qBdOFU1nlOm3w-o7S4aSDs1JT_Kw">map.</a>
+    answer: You can find our murals on this [map](https://www.google.com/maps/d/edit?mid=1YPg9qBdOFU1nlOm3w-o7S4aSDs1JT_Kw).
   - question: How do I sign up for volunteering with BAMP?
-    answer: Here is the <a href="https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform">link</a> to sign up!
+    answer: Here is the [link](https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform) to sign up!
   - question: Do you only paint murals?
-    answer: No, we do exhibitions, installations, and canvas paintings. See our <a href="events.html">events page.</a>
+    answer: No, we do exhibitions, installations, and canvas paintings. See our [events page](events.html).
   - question: Do you sell merchandise?
-    answer: Yes! Here is the link to <a href="https://www.thebamp.org/shop">our shop.</a>
+    answer: Yes! Here is the link to [our shop](https://www.thebamp.org/shop).
   - question: How can I support my local artist?
-    answer: <a href="https://donorbox.org/bay-area-mural-donations">Donate.</a> You can contact us <a href="mailto:bampteamad@gmail.com">here.</a></div>
+    answer: >
+      [Donate](https://donorbox.org/bay-area-mural-donations). You can contact us [here](mailto:bampteamad@gmail.com).
 ---
