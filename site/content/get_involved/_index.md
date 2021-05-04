@@ -40,7 +40,7 @@ faqs:
   - question: How do I sign up for volunteering with BAMP?
     answer: Here is the [link](https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform) to sign up!
   - question: Do you only paint murals?
-    answer: No, we do exhibitions, installations, and canvas paintings. See our [events page](events.html).
+    answer: No, we do exhibitions, installations, and canvas paintings. See our [events page](/events/).
   - question: Do you sell merchandise?
     answer: Yes! Here is the link to [our shop](https://www.thebamp.org/shop).
   - question: How can I support my local artist?
