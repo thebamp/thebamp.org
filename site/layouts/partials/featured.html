@@ -3,7 +3,7 @@
     <div class="infoCard">
         <img class="infoCard--img" src="{{.imageUrl}}">
         <div class="infoCard--caption">
-            <p class="infoCard--text">{{.text}}</p>
+            <p class="infoCard--text">{{.text | markdownify}}</p>
             <a class="btnLink" href="{{.linkUrl}}">{{.linkText}}</a>
         </div>
     </div>
