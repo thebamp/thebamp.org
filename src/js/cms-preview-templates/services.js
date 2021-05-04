@@ -15,7 +15,7 @@ export default ({entry, getAsset}) => {
             caption={pageHeader.get("caption")}
         />
 
-        <section class="l-section">
+        <section className="l-section">
             {cards.map((card, i) =>
                 <InfoCard
                     title={card.get("title")}
