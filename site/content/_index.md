@@ -8,16 +8,16 @@ carousel:
   - imageUrl: /img/homepage/sphpainting.jpeg
   - imageUrl: /img/homepage/artists.jpeg
 metrics:
-  - img: /img/homepage/metrics/painted.jpg
+  - imageUrl: /img/homepage/metrics/painted.jpg
     number: 100
     label: murals painted
-  - img: /img/homepage/metrics/empowered.jpg
+  - imageUrl: /img/homepage/metrics/empowered.jpg
     number: 26
     label: artists empowered
-  - img: /img/homepage/metrics/communities.jpg
+  - imageUrl: /img/homepage/metrics/communities.jpg
     number: 16
     label: communities engaged
-  - img: /img/homepage/metrics/volunteers.jpg
+  - imageUrl: /img/homepage/metrics/volunteers.jpg
     number: 253
     label: volunteers
 featured:
@@ -27,7 +27,7 @@ featured:
         Oakland, Chinatown to paint plywood boards on storefronts. The boarded up storefronts serve as great
         canvases to express the need for social change. BAMP hopes that the social justice artwork can be a
         way to inform, heal, and remind the community of the ongoing current events.
-    img: /img/homepage/plywood-mural-1.jpeg
+    imageUrl: /img/homepage/plywood-mural-1.jpeg
     linkText: Events
     linkUrl: /events/
     boxColor: red
@@ -38,14 +38,14 @@ testimonials:
         Oakland. Andre and his team are great to work with and were awesome working with the students.
         Everything was on schedule and the work they did was great! We would recommend them and be
         happy to work with them again on another project.
-    src: /img/homepage/testimonials/anna-olsen.png
+    imageUrl: /img/homepage/testimonials/anna-olsen.png
   - name: Fairbanks Farms
     quote: >
         We've had the members of BAMP up several times for different mural projects. Every member of
         the team has shown up with a very positive energy, and a strong desire to create with one
         and other as well as us. They've been a pleasure to work with, and we'd absolutely recommend
         the team to anyone seeking out their services.
-    src: /img/homepage/testimonials/fairbanks-farms.jpg
+    imageUrl: /img/homepage/testimonials/fairbanks-farms.jpg
   - name: Belinda Bain
     quote: >
         I haven’t yet (!) worked with BAMP but can’t help but leave a review of their culture-defining
@@ -53,14 +53,14 @@ testimonials:
         for almost 30 years, I’ve been able to see their destiny take fruition. To make us ask the hard
         questions, to bring back consideration and compassion in the community, and above all, to
         introduce new cultural concepts through art activism. Five stars doesn’t cut it.
-    src: /img/homepage/testimonials/belinda-bain.jpg
+    imageUrl: /img/homepage/testimonials/belinda-bain.jpg
   - name: Howard Flax
     quote: >
         I love Oakland. We met Andre (Natty Rebel) a few weeks ago as we were walking to dinner.
         He was painting a mural across the street from the restaurant and I asked him if he'd heard
         of the new awesome art store in town. He hadn't. We got to talking a bit, and now he's set
         to adorn the new store with one of his fantastic murals!
-    src: /img/homepage/testimonials/flax-f.jpg
+    imageUrl: /img/homepage/testimonials/flax-f.jpg
 partners:
   - linkUrl: http://aaacc.org/
     imageUrl: /img/homepage/supporters/aaacc.png
