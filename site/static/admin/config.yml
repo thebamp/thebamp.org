@@ -9,6 +9,46 @@ collections:
     label: "Pages"
     files:
 
+      # --- homepage ---
+      - file: "site/content/_index.md"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: text, widget: text}
+
+          - label: Metrics
+            name: metrics
+            widget: list
+            summary: "{{fields.number}} {{fields.label}}"
+            fields:
+              - {label: Image, name: img, widget: image}
+              - {label: Number, name: number, widget: string}
+              - {label: Label, name: label, widget: string}
+          - label: Featured
+            name: featured
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Image, name: img, widget: image}
+              - {label: "Link Text", name: linkText, widget: string}
+              - {label: "Link URL", name: linkUrl, widget: string}
+              - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Quote, name: quote, widget: text}
+              - {label: Image, name: src, widget: image}
+          - label: Partners
+            name: partners
+            widget: list
+            fields:
+              - {label: Image, name: imageUrl, widget: image}
+              - {label: "Link URL", name: linkUrl, widget: string}
+
       # ---  artwork page ---
       - file: "site/content/artwork/_index.md"
         label: "Artwork Page"
