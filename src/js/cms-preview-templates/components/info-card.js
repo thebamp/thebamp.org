@@ -5,7 +5,7 @@ export default ({boxColor, imageUrl, title, description, linkUrl, linkText}) =>
     <div className={`infoCard box box-${boxColor}`}>
         <img className="infoCard--img" src={imageUrl}/>
         <div className="infoCard--caption">
-            <p className="infoCard--title">{title}</p>
+            {title && <p className="infoCard--title">{title}</p>}
             <p className="infoCard--text">
                 <ReactMarkdown>{description}</ReactMarkdown>
             </p>
