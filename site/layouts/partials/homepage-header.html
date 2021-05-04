@@ -2,12 +2,12 @@
     <div class="carousel js-carousel-homepage">
 
         <div class="homepageHeader">
-            <img class="homepageHeader--img" src="{{ index .items 0 }}">
+            <img class="homepageHeader--img" src="{{ (index .items 0).imageUrl }}">
             <img class="homepageHeader--svg" src="/img/homepage/speech-bubble.svg">
         </div>
 
         {{ range after 1 .items }}
-            <img class="homepageHeader--img" src="{{ . }}">
+            <img class="homepageHeader--img" src="{{ .imageUrl }}">
         {{ end }}
 
         <video class="homepageHeader--img" src="videos/drone-edit-v2.mp4" style="filter: saturate(90%);" autoplay muted playsinline loop>

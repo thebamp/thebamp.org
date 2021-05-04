@@ -2,11 +2,11 @@
 heading: Bay Area Mural Program
 text: BAMP is a nonprofit organization of local artists dedicated to facilitating and creating public art.  Our vision is to turn bare, blighted walls into artistic gateways into the community's surrounding environment.
 carousel:
-  - /img/homepage/city-mural.jpeg
-  - /img/homepage/group-photo.jpeg
-  - /img/homepage/mural.jpeg
-  - /img/homepage/sphpainting.jpeg
-  - /img/homepage/artists.jpeg
+  - imageUrl: /img/homepage/city-mural.jpeg
+  - imageUrl: /img/homepage/group-photo.jpeg
+  - imageUrl: /img/homepage/mural.jpeg
+  - imageUrl: /img/homepage/sphpainting.jpeg
+  - imageUrl: /img/homepage/artists.jpeg
 metrics:
   - img: /img/homepage/metrics/painted.jpg
     number: 100
