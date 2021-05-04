@@ -23,7 +23,7 @@ metrics:
 featured:
   - title: Plywood Murals
     text: >
-        In the wake of George Floyds death, the BAMP and other art organizations have taken to Downtown
+        In the wake of George Floyd's death, the BAMP and other art organizations have taken to Downtown
         Oakland, Chinatown to paint plywood boards on storefronts. The boarded up storefronts serve as great
         canvases to express the need for social change. BAMP hopes that the social justice artwork can be a
         way to inform, heal, and remind the community of the ongoing current events.
