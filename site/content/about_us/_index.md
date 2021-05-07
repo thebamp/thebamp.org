@@ -1,18 +1,21 @@
 ---
 title: About Us
 pageHeader:
-    title: About BAMP
-    caption: >
-        BAMP is a nonprofit organization of local artists dedicated to facilitating and creating
-        public art. Our vision is to turn bare, blighted walls into artistic gateways into the
-        community's surrounding environment.
-    imageUrl: /img/about_us/about-us.jpg
-    boxColor: red
+  title: About BAMP
+  caption: >
+    BAMP is a nonprofit organization of local artists dedicated to facilitating
+    and creating public art. Our vision is to turn bare, blighted walls into
+    artistic gateways into the community's surrounding environment.
+  imageUrl: /img/about_us/about-us.jpg
+  boxColor: red
 missionStatement: >
-    Our program is constantly establishing new standards of excellence in the practice of public and contemporary art creation and exhibition.
-    Our collaborative dialogue processes empower artists and communities to address and organize issues in the community.
-    Community art builds bridges from conceptual connection to a physical understanding.
-    With close attention to our clients' desires, the results are beautiful murals that inspire and motivate viewers.
+  Our program is constantly establishing new standards of excellence in the
+  practice of public and contemporary art creation and exhibition. Our
+  collaborative dialogue processes empower artists and communities to address
+  and organize issues in the community. Community art builds bridges from
+  conceptual connection to a physical understanding. With close attention to our
+  clients' desires, the results are beautiful murals that inspire and motivate
+  viewers.
 teamMembers:
   - email: info@thebamp.org
     imageUrl: /img/about_us/headshots/andre.jpg
@@ -36,7 +39,7 @@ teamMembers:
     role: Creative Director
   - email: bampfieldoperations@gmail.com
     imageUrl: /img/about_us/headshots/rtystk.png
-    name:  Derrick "Rtystk" Shavers
+    name: Derrick "Rtystk" Shavers
     role: Field Operations
   - email: bamptimb@gmail.com
     imageUrl: /img/about_us/headshots/tim.png
@@ -46,15 +49,11 @@ teamMembers:
     imageUrl: /img/about_us/headshots/sierra.png
     name: Sierra Salome
     role: Activities Coordinator
-  - email: bamp.printing@gmail.com
-    imageUrl: /img/about_us/headshots/kendric.png
-    name: Kendric Di Stefano
-    role: Screen Printing Lead
   - email: artbyshido@gmail.com
     imageUrl: /img/about_us/headshots/shido.png
     name: Terrion "Shido" Smith
     role: Artist
-  - email: forced2fly@gmail.com 
+  - email: forced2fly@gmail.com
     imageUrl: /img/about_us/headshots/forced2fly.png
     name: Forced2Fly
     role: Artist
@@ -103,7 +102,7 @@ directors:
     imageUrl: /img/about_us/headshots/oscar.png
     name: Oscar Quiroz-Medrano
     role: Treasurer
-  - email:
+  - email: info@thebamp.org
     imageUrl: /img/about_us/headshots/erin-nobg.png
     name: Erin Bakke
     role: Secretary
@@ -137,25 +136,30 @@ advisors:
     name: Melonie Green
     role: Advisor
 press:
-  - date: July 29, 2020
-    boxColor: red
-    headline: "Art matters: Blane Asrat takes her talents to the community with BLM mural in Oakland"
-    imageUrl: https://i0.wp.com/localnewsmatters.org/wp-content/uploads/2020/07/me-with-my-mural.jpg?w=1469&ssl=1
-    linkUrl: https://localnewsmatters.org/2020/07/29/art-matters-blane-asrat-takes-her-talents-to-the-community-with-blm-mural-in-oakland/
-    publication: Local News Matters
-    text: This is one of dozens of arresting images created during volunteer cleanup efforts following Black Lives Matter protest marches, rallies and looting in.
   - date: July 25, 2020
     boxColor: blue
     headline: What is the fate of Black Lives Matter protest murals?
     imageUrl: https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/07/rachel-wolfe-goldsmith-mural-0722201.jpg
     linkUrl: https://www.salon.com/2020/07/25/black-lives-matter-mural-art-preservation-oakland/
     publication: Salon
-    text: Cities like Oakland are taking a Black, grassroots-led approach to preserving the many murals of the BLM movement.
+    text: Cities like Oakland are taking a Black, grassroots-led approach to
+      preserving the many murals of the BLM movement.
   - date: July 7, 2020
     boxColor: yellow
     headline: "1,000 Murals: In Oakland, Revolutions Told Through Street Art"
     imageUrl: https://miro.medium.com/max/3200/0*UbE17OFIIg6jdYRY
     linkUrl: https://thebolditalic.com/1-000-murals-in-oakland-revolutions-told-through-street-art-be53c231422e
     publication: The Bold Italic
-    text: How murals help to keep Oakland’s history — and current fights for social justice — visible.
+    text: How murals help to keep Oakland’s history — and current fights for social
+      justice — visible.
+  - date: July 29, 2020
+    boxColor: red
+    headline: "Art matters: Blane Asrat takes her talents to the community with BLM
+      mural in Oakland"
+    imageUrl: https://i0.wp.com/localnewsmatters.org/wp-content/uploads/2020/07/me-with-my-mural.jpg?w=1469&ssl=1
+    linkUrl: https://localnewsmatters.org/2020/07/29/art-matters-blane-asrat-takes-her-talents-to-the-community-with-blm-mural-in-oakland/
+    publication: Local News Matters
+    text: This is one of dozens of arresting images created during volunteer cleanup
+      efforts following Black Lives Matter protest marches, rallies and looting
+      in.
 ---
