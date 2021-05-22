@@ -4,7 +4,7 @@ import Faq from "./components/faq"
 import GridBox from "./components/grid-box"
 import MapBox from "./components/map-box"
 import WantAMural from "./components/want-a-mural"
-import WeSeekTo from "./components/we-seek-to"
+import Values from "./components/values"
 import YouTube from "./components/youtube"
 
 export default ({entry, getAsset}) => {
@@ -14,7 +14,7 @@ export default ({entry, getAsset}) => {
     return <React.Fragment>
         <section className="l-section">
             <GridBox columns={2} collapse>
-                <WeSeekTo/>
+                <Values/>
                 <MapBox/>
             </GridBox>
         </section>
