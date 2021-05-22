@@ -1,13 +1,18 @@
 {{ define "main" }}
 
 <section class="l-section">
-    <div class="gridBox gridBox-col2 gridBox-col2-collapse">
+    <h1 class="sectionHeading sectionHeading-centered sectionHeading-spaced">Artwork</h1>
+    <center>
         {{ partial "we-seek-to" }}
-        {{ partial "map-box" }}
-    </div>
+    </center>
+</section>
+
+<section class="l-section l-section-tight">
+    {{ partial "map-box" }}
 </section>
 
 <section class="l-section">
+    <h1 class="sectionHeading sectionHeading-centered" style="margin-bottom:16px;">Selected Murals</h1>
     <div class="gridBox gridBox-col3 gridBox-center">
        {{ range .Params.murals }}
            {{ partial "mural-thumbnail" . }}
