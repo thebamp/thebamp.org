@@ -16,12 +16,19 @@ $(document).ready(() => {
 /*
  * show/hide nav modal
  */
-$('#hamburger').add('#closeNavModal').add('.navModal--linkList > *')
-    .click(() => {
-        $('#navModal').toggleClass('navModal-is-shown')
-        $('body').toggleClass('l-noScroll')
-    })
+function showNavModal() {
+    $('#navModal').addClass('navModal-is-shown')
+    $('body').addClass('l-noScroll')
+}
 
+function hideNavModal() {
+    $('#navModal').removeClass('navModal-is-shown')
+    $('body').removeClass('l-noScroll')
+}
+
+$('#hamburger').click(showNavModal)
+$('#closeNavModal').add('.navModal--linkList > *').click(hideNavModal)
+$(document).on('keyup', e => { e.key === "Escape" ? hideNavModal() : null })
 
 /*
  * show/hide faq answers
