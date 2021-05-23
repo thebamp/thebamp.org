@@ -10,12 +10,13 @@ import YouTube from "./components/youtube"
 export default ({entry, getAsset}) => {
     const faqs = entry.getIn(["data", "faqs"]) || []
     const murals = entry.getIn(["data", "murals"]) || []
+    const mapUrl = entry.getIn(["data", "mapUrl"]) || []
 
     return <React.Fragment>
         <section className="l-section">
             <GridBox columns={2} collapse>
                 <Values/>
-                <MapBox/>
+                <MapBox mapUrl={mapUrl}/>
             </GridBox>
         </section>
 

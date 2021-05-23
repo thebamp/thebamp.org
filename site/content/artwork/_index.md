@@ -1,5 +1,6 @@
 ---
 title: Artwork
+mapUrl: "https://www.google.com/maps/d/embed?mid=1YPg9qBdOFU1nlOm3w-o7S4aSDs1JT_Kw&ll=37.92234291035014%2C-122.29919501712504&z=10"
 murals:
   - id: blmoak
     date: July 2020
