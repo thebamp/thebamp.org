@@ -1,53 +1,25 @@
 ---
 title: Events
 events:
-  - title: Battle of The Canvas - Oakland
-    description: >
-        Appearing for the first time in Oakland, the Battle of the Canvas® originally produced in Philadelphia,
-        continues to be a means to expose, support and celebrate local artistry in cities throughout the country.
-        Simone Banks, co-founder of WAXXED and Andre Jones have partnered to bring the live painting festival to
-        Oakland, working hand in hand to provide access and visibility to some of the most talented artists the
-        city has to offer. All artists will compete for a $500 Grand Prize, $350 in Gift Cards donated by Flax
-        Art Store and city wide exposure.
-    date: Sept. 15, 4:30p
-    imageUrl: https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg
-    linkUrl: 
-    boxColor: red
-  - title: Battle of The Canvas - Oakland
-    description: >
-        Appearing for the first time in Oakland, the Battle of the Canvas® originally produced in Philadelphia,
-        continues to be a means to expose, support and celebrate local artistry in cities throughout the country.
-        Simone Banks, co-founder of WAXXED and Andre Jones have partnered to bring the live painting festival to
-        Oakland, working hand in hand to provide access and visibility to some of the most talented artists the
-        city has to offer. All artists will compete for a $500 Grand Prize, $350 in Gift Cards donated by Flax
-        Art Store and city wide exposure.
-    date: Sept. 15, 4:30p
-    imageUrl: https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg
-    linkUrl: 
-    boxColor: blue
-  - title: Battle of The Canvas - Oakland
-    description: >
-        Appearing for the first time in Oakland, the Battle of the Canvas® originally produced in Philadelphia,
-        continues to be a means to expose, support and celebrate local artistry in cities throughout the country.
-        Simone Banks, co-founder of WAXXED and Andre Jones have partnered to bring the live painting festival to
-        Oakland, working hand in hand to provide access and visibility to some of the most talented artists the
-        city has to offer. All artists will compete for a $500 Grand Prize, $350 in Gift Cards donated by Flax
-        Art Store and city wide exposure.
-    date: Sept. 15, 4:30p
-    imageUrl: https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg
-    linkUrl: 
+  - title: BAMP Art Clash - Oakland
+    description: Live painting festival where 25 artists compete! This event will
+      provide access and visibility to some of the most talented artists the
+      city has to offer. All artists will compete for a $1000 Grand Prize, 2nd
+      and 3rd place prizes, and city-wide exposure. It will commence with an
+      auction of all the artworks painted at the event.
+    date: June 19, 2021
+    imageUrl: img/1c764fb6-9bc4-4675-8264-a12a880b77dc.jpeg
+    linkUrl: null
     boxColor: yellow
-  - title: Battle of The Canvas - Oakland
-    description: >
-        Appearing for the first time in Oakland, the Battle of the Canvas® originally produced in Philadelphia,
-        continues to be a means to expose, support and celebrate local artistry in cities throughout the country.
-        Simone Banks, co-founder of WAXXED and Andre Jones have partnered to bring the live painting festival to
-        Oakland, working hand in hand to provide access and visibility to some of the most talented artists the
-        city has to offer. All artists will compete for a $500 Grand Prize, $350 in Gift Cards donated by Flax
-        Art Store and city wide exposure.
-    date: Sept. 15, 4:30p
-    imageUrl: https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg
-    linkUrl: 
+  - title: "BAMP Art Fair "
+    description: Every 4th Sunday at 7th West in Oakland is BAMP's Art Fair. The
+      event is from 2pm-6pm. The BAMP Fair consists of live art, vendors,
+      networking, and fun! 7th West will donate $2 for every purchase of the
+      BAMP Stamp Drink! Come enjoy the sun with us while viewing a mural painted
+      by BAMP Team Members!
+    date: June 27, 2021
+    imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
+    linkUrl: null
     boxColor: red
 photos:
   - imageUrl: /img/events/473EC4D2-AE4E-4305-B343-B10198E8C615.JPG
