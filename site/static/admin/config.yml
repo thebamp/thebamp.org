@@ -175,6 +175,7 @@ collections:
               - {label: Date, name: date, widget: string}
               - {label: Image, name: imageUrl, widget: image}
               - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
+              - {label: "Link URL", name: linkUrl, widget: string}
           - name: photos
             label: "Photos"
             widget: list
