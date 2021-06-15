@@ -1,5 +1,6 @@
 ---
 title: Events
+calendarId: N2puaXQ5cGwydjlpZXExcmtzc3ZlYjYwYmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 events:
   - title: BAMP Art Clash - Oakland
     description: Live painting festival where 25 artists compete! This event will

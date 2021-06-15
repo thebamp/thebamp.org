@@ -8,10 +8,10 @@ import PhotoGrid from "./components/photo-grid"
 export default ({entry, getAsset}) => {
     const events = entry.getIn(["data", "events"]) || []
     const photos = entry.getIn(["data", "photos"]) || []
+    const calendarId = entry.getIn(["data", "calendarId"])
     const calendarUrl = (
-        "https://calendar.google.com/calendar/embed?" +
+        `https://calendar.google.com/calendar/embed?src=${calendarId}&` +
         "height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&" +
-        "src=aWQ5ZmozZ2NnZzZsaGhhb2hxbGk3YTkxamNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&" +
         "color=%238E24AA&showTitle=1&showNav=0&showDate=0&showPrint=0&showTabs=0&showTz=0&showCalendars=1"
     )
 
