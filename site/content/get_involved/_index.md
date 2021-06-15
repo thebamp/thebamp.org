@@ -42,7 +42,7 @@ faqs:
   - question: Do you only paint murals?
     answer: No, we do exhibitions, installations, and canvas paintings. See our [events page](/events/).
   - question: Do you sell merchandise?
-    answer: Yes! Here is the link to [our shop](https://www.thebamp.org/shop).
+    answer: Yes! Here is the link to [our shop](https://thebamp.wixsite.com/website/shop).
   - question: How can I support my local artist?
     answer: >
       [Donate](https://donorbox.org/bay-area-mural-donations). You can contact us [here](mailto:bampteamad@gmail.com).
