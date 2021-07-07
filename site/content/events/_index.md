@@ -2,26 +2,35 @@
 title: Events
 calendarId: N2puaXQ5cGwydjlpZXExcmtzc3ZlYjYwYmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 events:
-  - title: BAMP Art Clash - Oakland
-    description: Live painting festival where 25 artists compete! This event will
-      provide access and visibility to some of the most talented artists the
-      city has to offer. All artists will compete for a $1000 Grand Prize, 2nd
-      and 3rd place prizes, and city-wide exposure. It will commence with an
-      auction of all the artworks painted at the event.
-    date: June 19, 2021
-    imageUrl: img/1c764fb6-9bc4-4675-8264-a12a880b77dc.jpeg
-    linkUrl: null
-    boxColor: yellow
   - title: "BAMP Art Fair "
     description: Every 4th Sunday at 7th West in Oakland is BAMP's Art Fair. The
       event is from 2pm-6pm. The BAMP Fair consists of live art, vendors,
       networking, and fun! 7th West will donate $2 for every purchase of the
       BAMP Stamp Drink! Come enjoy the sun with us while viewing a mural painted
       by BAMP Team Members!
-    date: June 27, 2021
+    date: July 25, 2021
     imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
-    linkUrl: null
+    linkUrl: Thebamp.org
     boxColor: red
+  - title: BAMP Spray Can Exploration Workshop
+    description: |-
+      Explore Spray Cans with BAMP! 
+
+
+
+      * All skill levels welcome
+      * Ages 16+ 
+      * Bring your own mask 
+
+
+
+      1pm-3pm at SPARC-it Place
+
+      3427 San Pablo Avenue, Oakland, CA, 94608
+    date: July 19, 2021
+    boxColor: yellow
+    imageUrl: img/colorful-splat-paint-art-party-invitation-3.jpg
+    linkUrl: https://www.eventbrite.com/e/161830486341
 photos:
   - imageUrl: /img/events/473EC4D2-AE4E-4305-B343-B10198E8C615.JPG
   - imageUrl: /img/events/51AB214F-6B94-49DE-A849-1772EDFD7346.JPG
