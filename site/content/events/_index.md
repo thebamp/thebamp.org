@@ -8,7 +8,7 @@ events:
       networking, and fun! 7th West will donate $2 for every purchase of the
       BAMP Stamp Drink! Come enjoy the sun with us while viewing a mural painted
       by BAMP Team Members!
-    date: July 25, 2021
+    date: August 22, 2021
     imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
     linkUrl: Thebamp.org
     boxColor: red
@@ -27,10 +27,10 @@ events:
       1pm-3pm at SPARC-it Place
 
       3427 San Pablo Avenue, Oakland, CA, 94608
-    date: July 19, 2021
+    date: August 2, 2021
     boxColor: yellow
     imageUrl: img/colorful-splat-paint-art-party-invitation-3.jpg
-    linkUrl: https://www.eventbrite.com/e/161830486341
+    linkUrl: https://spraycanexploration2.eventbrite.com
 photos:
   - imageUrl: /img/events/473EC4D2-AE4E-4305-B343-B10198E8C615.JPG
   - imageUrl: /img/events/51AB214F-6B94-49DE-A849-1772EDFD7346.JPG
