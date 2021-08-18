@@ -89,6 +89,10 @@ teamMembers:
     imageUrl: /img/about_us/headshots/nyia.png
     name: Nyia Garrett
     role: Artist
+  - name: Andrew Felix
+    role: Artist
+    imageUrl: img/c66ae5e6-10c9-4294-bd7c-dba3b4503d69.jpeg
+    email: Andrew@thebamp.org
 directors:
   - email: Abbayahudah@gmail.com
     imageUrl: /img/about_us/headshots/abba.png
