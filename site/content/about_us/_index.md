@@ -37,7 +37,7 @@ teamMembers:
     imageUrl: /img/about_us/headshots/rachel.png
     name: Rachel Wolfe-Goldsmith
     role: Creative Director
-  - email: bampfieldoperations@gmail.com
+  - email: Derrick@thebamp.org
     imageUrl: /img/about_us/headshots/rtystk.png
     name: Derrick "Rtystk" Shavers
     role: Field Operations
@@ -45,7 +45,7 @@ teamMembers:
     imageUrl: /img/about_us/headshots/tim.png
     name: Timothy B.
     role: Lead Artist
-  - email: bampvolunteer@gmail.com
+  - email: Sierra@thebamp.org
     imageUrl: /img/about_us/headshots/sierra.png
     name: Sierra Salome
     role: Activities Coordinator
