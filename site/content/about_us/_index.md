@@ -21,15 +21,15 @@ teamMembers:
     imageUrl: /img/about_us/headshots/andre.jpg
     name: Andre Jones
     role: BAMP Executive Director / Lead Artist
-  - email: bampplum@gmail.com
+  - email: Plum@thebamp.org
     imageUrl: /img/about_us/headshots/plum.png
     name: Pamela "Plum" Outten
     role: Assistant Director
-  - email: bampkeith@gmail.com
+  - email: Finance@thebamp.org
     imageUrl: /img/about_us/headshots/keith.jpg
     name: Keith Williams
     role: Bookkeeper
-  - email: bampteamad@gmail.com
+  - email: Ashley@thebamp.org
     imageUrl: /img/about_us/headshots/ashley.png
     name: Ashley Cousin
     role: Executive Assistant
