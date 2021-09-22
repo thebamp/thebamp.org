@@ -115,7 +115,7 @@ directors:
     name: Barrett Raftery
     role: Board Member
 advisors:
-  - email: Langstyn@yahoo.com
+  - email: Kinglangbamg@gmail.com
     imageUrl: /img/about_us/headshots/langstyn.png
     name: Langstyn Williams
     role: Project Manager
