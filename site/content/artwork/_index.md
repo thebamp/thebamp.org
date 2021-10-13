@@ -1,6 +1,6 @@
 ---
 title: Artwork
-mapUrl: "https://www.google.com/maps/d/embed?mid=1YPg9qBdOFU1nlOm3w-o7S4aSDs1JT_Kw&ll=37.92234291035014%2C-122.29919501712504&z=10"
+mapUrl: https://www.google.com/maps/d/embed?mid=1YPg9qBdOFU1nlOm3w-o7S4aSDs1JT_Kw&ll=37.92234291035014%2C-122.29919501712504&z=10
 murals:
   - id: blmoak
     date: July 2020
@@ -50,19 +50,19 @@ murals:
     thumbUrl: /img/artwork/thumbnails/authoak.png
     title: Authentically Oakland
     boxColor: blue
-  - id: gateway
+  - leadArtist: Andre Jones
+    text: Awarded grant.
     date: December 2015
     imageUrl: /img/artwork/gateway.jpg
-    leadArtist:
     location: Georgia Street, Vallejo
-    text: Awarded grant.
-    thumbUrl: /img/artwork/thumbnails/gateway.jpg
-    title: Gateway to Vallejo
     boxColor: blue
+    title: Gateway to Vallejo
+    thumbUrl: /img/artwork/thumbnails/gateway.jpg
+    id: gateway
   - id: kapor
     date: August 2020
     imageUrl: /img/artwork/kapor.jpg
-    leadArtist:
+    leadArtist: Multiple
     location: Kapor Center, Oakland
     thumbUrl: /img/artwork/thumbnails/kapor.jpg
     title: Justice for My Ancestors
@@ -83,14 +83,6 @@ murals:
     thumbUrl: /img/artwork/thumbnails/ahome.jpg
     title: Everyone Deserves a Home
     boxColor: red
-  - id: seer
-    date: October 2018
-    imageUrl: /img/artwork/seer.jpg
-    leadArtist: Rachel Wolfe-Goldsmith
-    location: 7th Street, Oakland
-    thumbUrl: /img/artwork/thumbnails/seer.jpg
-    title: The Seer
-    boxColor: blue
   - id: literacy
     date: March 2019
     imageUrl: /img/artwork/literacy.jpg
@@ -171,6 +163,14 @@ murals:
     thumbUrl: /img/artwork/thumbnails/fairbanks.jpg
     title: Fairbanks Farms
     boxColor: yellow
+  - imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
+    id: 7th west
+    leadArtist: "Rtystk, Corbrae, Shido, Aaron "
+    location: 7th West
+    thumbUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
+    title: 7th West
+    boxColor: yellow
+    date: August 2021
 faqs:
   - question: How much does a mural cost?
     answer: >
@@ -179,12 +179,14 @@ faqs:
       to the consultation form.
   - question: How can I support my local artist?
     answer: >
-      [Donate](https://donorbox.org/bay-area-mural-donations).
-      You can contact us [here](mailto:bampteamad@gmail.com).
+      [Donate](https://donorbox.org/bay-area-mural-donations). You can contact
+      us [here](mailto:bampteamad@gmail.com).
   - question: How can I work with my city to install a mural in my community?
     answer: >
-      Start with contacting the property owner and sharing your concept/idea for the mural
+      Start with contacting the property owner and sharing your concept/idea for
+      the mural
       [here](https://docs.google.com/forms/d/e/1FAIpQLScleB8nGhBEP3J1lAEBID67345OBiwmmRJ_aD7ZinMgSqXp8g/viewform).
   - question: Do you paint house murals?
-    answer: Yes! Please fill out our [consultation form](https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform).
+    answer: Yes! Please fill out our [consultation
+      form](https://docs.google.com/forms/d/1Nxy535i1nv_mvULyfQRKsFVfuy3ZkJZ-wYikCgaylhM/viewform).
 ---
