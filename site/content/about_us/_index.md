@@ -20,7 +20,7 @@ teamMembers:
   - email: info@thebamp.org
     imageUrl: /img/about_us/headshots/andre.jpg
     name: Andre Jones
-    role: BAMP Executive Director / Lead Artist
+    role: BAMP Executive Director / Founder
   - email: Plum@thebamp.org
     imageUrl: /img/about_us/headshots/plum.png
     name: Pamela "Plum" Outten
@@ -28,7 +28,7 @@ teamMembers:
   - email: Finance@thebamp.org
     imageUrl: /img/about_us/headshots/keith.jpg
     name: Keith Williams
-    role: Bookkeeper
+    role: CFO
   - email: Ashley@thebamp.org
     imageUrl: /img/about_us/headshots/ashley.png
     name: Ashley Cousin
@@ -40,7 +40,11 @@ teamMembers:
   - email: Derrick@thebamp.org
     imageUrl: /img/about_us/headshots/rtystk.png
     name: Derrick "Rtystk" Shavers
-    role: Field Operations
+    role: Field Operations Director
+  - name: Langstyn Williams
+    role: Program Manager
+    imageUrl: img/a552e9e8-e163-401a-b2ab-f0df956fc84e_4_5005_c.jpeg
+    email: kinglangbang@gmail.com
   - email: bamptimb@gmail.com
     imageUrl: /img/about_us/headshots/tim.png
     name: Timothy B.
@@ -48,7 +52,7 @@ teamMembers:
   - email: Sierra@thebamp.org
     imageUrl: /img/about_us/headshots/sierra.png
     name: Sierra Salome
-    role: Activities Coordinator
+    role: Volunteer Coordinator
   - email: artbyshido@gmail.com
     imageUrl: /img/about_us/headshots/shido.png
     name: Terrion "Shido" Smith
@@ -115,10 +119,6 @@ directors:
     name: Barrett Raftery
     role: Board Member
 advisors:
-  - email: Kinglangbamg@gmail.com
-    imageUrl: /img/about_us/headshots/langstyn.png
-    name: Langstyn Williams
-    role: Project Manager
   - email: sorell@athenbgallery.com
     imageUrl: /img/about_us/headshots/sorell.png
     name: Sorell Raino-Tsui
