@@ -2,13 +2,17 @@
 title: Events
 calendarId: N2puaXQ5cGwydjlpZXExcmtzc3ZlYjYwYmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 events:
-  - title: "BAMP Art Fair "
-    description: Every 4th Sunday at 7th West in Oakland is BAMP's Art Fair. The
-      event is from 2pm-6pm. The BAMP Fair consists of live art, vendors,
-      networking, and fun! 7th West will donate $2 for every purchase of the
-      BAMP Stamp Drink! Come enjoy the sun with us while viewing a mural painted
-      by BAMP Team Members!
-    date: August 22, 2021
+  - title: 7th West x BAMP
+    description: >-
+      Check out BAMP's rotating mural at 7th West in West Oakland. Grab yourself
+      a "BAMP Stamp" cocktail and $2 from each one purchased is donated to
+      BAMP. 
+
+
+
+
+      New mural by BAMP Team Members Kalani Ware and Zoe Boston coming soon...  Stay tuned.
+    date: October 24, 2021
     imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
     linkUrl: Thebamp.org
     boxColor: red
