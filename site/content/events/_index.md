@@ -16,6 +16,22 @@ events:
     imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
     linkUrl: Thebamp.org
     boxColor: red
+  - title: Oakland Artists Gala
+    date: 03/18/2022
+    linkUrl: https://www.eventbrite.com/e/oakland-artists-gala-presented-by-bamp-tickets-200462918987
+    boxColor: yellow
+    imageUrl: img/d54a023b-39b2-42da-bfc7-88d19fd2cea0.jpeg
+    description: >-
+      You are invited to The Bay Area Mural Program’s (BAMP) Oakland Artist
+      Gala, our first annual black-tie fundraiser. The Gala will take place on
+      March 18, 2022, from 7 pm - 10 pm at Oakstop's California Ballroom in
+      Oakland. 
+
+
+      BAMP strives to continue our mission of artistic excellence, education, and community enrichment. Organizations like BAMP are the life-blood of our city by shaping culture, providing unforgettable experiences, and transforming our urban landscape. Local creative organizations have faced the challenges of rapid development, making it hard to stay in our communities and do this significant work. 
+
+
+      BAMP is a 501(c)(3) non-profit organization. All donations are tax-deductible.
 photos:
   - imageUrl: /img/events/473EC4D2-AE4E-4305-B343-B10198E8C615.JPG
   - imageUrl: /img/events/51AB214F-6B94-49DE-A849-1772EDFD7346.JPG
