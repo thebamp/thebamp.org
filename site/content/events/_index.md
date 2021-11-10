@@ -12,7 +12,7 @@ events:
 
 
       New mural by BAMP Team Members Kalani Ware and Zoe Boston coming soon...  Stay tuned.
-    date: October 24, 2021
+    date: November 28, 2021
     imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
     linkUrl: Thebamp.org
     boxColor: red
