@@ -2,20 +2,6 @@
 title: Events
 calendarId: N2puaXQ5cGwydjlpZXExcmtzc3ZlYjYwYmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 events:
-  - title: 7th West x BAMP
-    description: >-
-      Check out BAMP's rotating mural at 7th West in West Oakland. Grab yourself
-      a "BAMP Stamp" cocktail and $2 from each one purchased is donated to
-      BAMP. 
-
-
-
-
-      New mural by BAMP Team Members Kalani Ware and Zoe Boston coming soon...  Stay tuned.
-    date: November 28, 2021
-    imageUrl: img/091a48f3-5312-4fd2-8abf-80e764e0a0ad.jpg
-    linkUrl: Thebamp.org
-    boxColor: red
   - title: Oakland Artists Gala
     date: 03/18/2022
     linkUrl: https://www.eventbrite.com/e/oakland-artists-gala-presented-by-bamp-tickets-200462918987
