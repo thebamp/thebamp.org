@@ -32,7 +32,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: markdown}
-              - {label: Image, name: img, widget: image}
+              - {label: Image, name: imageUrl, widget: image}
               - {label: "Link Text", name: linkText, widget: string}
               - {label: "Link URL", name: linkUrl, widget: string}
               - {label: Color, name: boxColor, widget: select, options: ["red", "yellow", "blue"]}
