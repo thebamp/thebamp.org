@@ -48,7 +48,7 @@ collections:
             widget: list
             fields:
               - {label: Image, name: imageUrl, widget: image}
-              - {label: "Link URL", name: linkUrl, widget: string}
+              - {label: "Link URL", name: linkUrl, widget: string, required: false}
 
       # ---  artwork page ---
       - file: "site/content/artwork/_index.md"
