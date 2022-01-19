@@ -18,7 +18,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: text, widget: text}
-
           - label: Metrics
             name: metrics
             widget: list
