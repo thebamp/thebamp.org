@@ -23,7 +23,7 @@ collections:
             widget: list
             summary: "{{fields.number}} {{fields.label}}"
             fields:
-              - {label: Image, name: img, widget: image}
+              - {label: Image, name: imageUrl, widget: image}
               - {label: Number, name: number, widget: string}
               - {label: Label, name: label, widget: string}
           - label: Featured
