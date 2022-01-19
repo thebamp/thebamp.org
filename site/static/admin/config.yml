@@ -42,7 +42,7 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Quote, name: quote, widget: text}
-              - {label: Image, name: src, widget: image}
+              - {label: Image, name: imageUrl, widget: image}
           - label: Partners
             name: partners
             widget: list
