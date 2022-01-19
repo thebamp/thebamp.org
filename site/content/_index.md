@@ -86,8 +86,6 @@ partners:
     imageUrl: /img/homepage/supporters/athletics.gif
   - linkUrl: https://www.sfparksalliance.org/our-parks/parks/rosa-parks-senior-center
     imageUrl: /img/homepage/supporters/bayviewss.png
-  - linkUrl: https://www.bluedreamoakland.com/
-    imageUrl: /img/homepage/supporters/blue_dream.png
   - linkUrl: http://chromaonline.com/landing
     imageUrl: /img/homepage/supporters/chroma.png
   - linkUrl: http://citizenfilm.org/
