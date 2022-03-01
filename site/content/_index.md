@@ -24,6 +24,19 @@ metrics:
     number: 253
     label: volunteers
 featured:
+  - title: Stephen Curry YMCA Mural
+    text: >-
+      In Celebration of the new NBA All-Time 3-Point Leader, Rakuten has
+      partnered with B.A.M.P. and Marcus Books to promote literacy.  The mural
+      highlights Stephen Curry's impact on and off the court. See the actual 9
+      storey mural in person at 2350 Broadway at the Oakland YMCA.
+
+
+      First 300 people to scan the QR code in the mural receive a free book from Marcus Books at 3900 Martin Luther king Jr. Way, Oakland, CA 94609
+    imageUrl: img/img_2678-1-.jpg
+    linkText: https://www.3pointcelebrationmural.com/
+    linkUrl: https://www.3pointcelebrationmural.com/
+    boxColor: blue
   - title: Plywood Murals
     text: >
       In the wake of George Floyd's death, BAMP and other art organizations have
@@ -36,6 +49,24 @@ featured:
     linkText: Events
     linkUrl: /events/
     boxColor: red
+  - title: 2022 oakland Artist Gala
+    imageUrl: img/d54a023b-39b2-42da-bfc7-88d19fd2cea0.jpeg
+    text: >-
+      ## Please help B.A.M.P. celebrate the Oakland Artists Gala which will take
+      place on March 18, 2022, from 7 pm - 10 pm at Oakstop’s California
+      Ballroom in Oakland. Our goal is to raise $235,000 that will be used for
+      upcoming and continual community mural projects. To meet this goal, we are
+      asking for sponsorships from local businesses and individuals such as
+      yourself.
+
+
+      During the pandemic local creative organizations such as BAMP have faced the challenges of rapid development, making it hard to stay in our communities and do this significant work.
+
+
+      By giving to this campaign you’ll support us in continuing our mission of artistic excellence, education, and community enrichment. We ask that you consider a sponsorship donation, where you will be honored at our event.
+    linkText: https://www.eventbrite.com/e/oakland-artists-gala-presented-by-bamp-tickets-200462918987
+    linkUrl: https://www.eventbrite.com/e/oakland-artists-gala-presented-by-bamp-tickets-200462918987
+    boxColor: yellow
 testimonials:
   - name: Anna Olsen
     quote: >
