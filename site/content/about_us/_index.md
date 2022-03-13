@@ -73,10 +73,6 @@ teamMembers:
     imageUrl: /img/about_us/headshots/adisa.png
     name: Adisa Davis
     role: Artist
-  - email: aaron.beitia@gmail.com
-    imageUrl: /img/about_us/headshots/aaron.png
-    name: Aaron Beitia
-    role: Artist
   - email: design.matteo@gmail.com
     imageUrl: /img/about_us/headshots/matteo.png
     name: Matteo Davinci
