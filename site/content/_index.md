@@ -13,7 +13,7 @@ carousel:
   - imageUrl: img/img_2678-1-.jpg
 metrics:
   - imageUrl: /img/homepage/metrics/painted.jpg
-    number: 100
+    number: "68"
     label: murals painted
   - imageUrl: /img/homepage/metrics/empowered.jpg
     number: 26
@@ -22,7 +22,7 @@ metrics:
     number: 16
     label: communities engaged
   - imageUrl: /img/homepage/metrics/volunteers.jpg
-    number: 253
+    number: "406"
     label: volunteers
 featured:
   - title: Stephen Curry YMCA Mural
