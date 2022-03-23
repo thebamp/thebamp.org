@@ -7,8 +7,6 @@ text: BAMP is a nonprofit organization of local artists dedicated to
 carousel:
   - imageUrl: img/fdbdcf1e-6aee-496e-b263-da19ff3b3646.jpeg
   - imageUrl: /img/homepage/group-photo.jpeg
-  - imageUrl: img/b017c775-0477-4457-b447-b39fcd4e8f2c.png
-  - imageUrl: /img/homepage/sphpainting.jpeg
   - imageUrl: img/4f5e3b2b-446d-4efe-b085-bf7c81c2bd70.png
   - imageUrl: img/img_2678-1-.jpg
   - imageUrl: img/26f0f1c9-b2c1-402d-beeb-409631e789ab.jpeg
