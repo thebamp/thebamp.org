@@ -1,9 +1,9 @@
 ---
 title: Programs
 pageHeader:
-  title: Programs
-  caption: Register for a BAMP class today!
-  imageUrl: /img/programs/programs.jpeg
+  title: MURAL TOUR
+  caption: Sign up for a BAMP Mural Tour TODAY!
+  imageUrl: img/6aab9d2a-4dc6-4644-80ac-f1a58aa0fa78.png
   boxColor: blue
 programs: []
 faqs:
