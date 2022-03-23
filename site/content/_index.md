@@ -63,6 +63,14 @@ featured:
     linkText: Gala Photos
     linkUrl: https://www.eventbrite.com/e/oakland-artists-gala-presented-by-bamp-tickets-200462918987
     boxColor: yellow
+  - title: Downtown Oakland Mural Tour
+    imageUrl: img/4f5e3b2b-446d-4efe-b085-bf7c81c2bd70.png
+    linkUrl: https://www.eventbrite.com/e/bamp-mural-tours-tickets-297406249097?aff=ebdssbdestsearch
+    boxColor: yellow
+    linkText: Take a Mural Tour
+    text: Take the 10 block walking tour of Downtown Oakland like never before.  We
+      will highlight the latest murals  as well as historic Landmarks. Check out
+      and support the local businesses on Broadway along the way.
 testimonials:
   - name: Anna Olsen
     quote: >
