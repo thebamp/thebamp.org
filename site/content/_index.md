@@ -11,6 +11,7 @@ carousel:
   - imageUrl: /img/homepage/sphpainting.jpeg
   - imageUrl: /img/homepage/artists.jpeg
   - imageUrl: img/img_2678-1-.jpg
+  - imageUrl: img/2a5b939a-7078-4cf3-afaa-ef79565f41b9.jpeg
 metrics:
   - imageUrl: /img/homepage/metrics/painted.jpg
     number: "68"
