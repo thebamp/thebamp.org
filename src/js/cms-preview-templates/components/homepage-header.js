@@ -17,16 +17,6 @@ export default ({items, getAsset}) => {
                     src={item.get("imageUrl")}
                 />
             )}
-
-            <video
-                className="homepageHeader--img"
-                style={{filter: "saturate(90%)"}}
-                src="videos/drone-edit-v2.mp4"
-                autoPlay
-                muted
-                playsInline
-                loop
-            />
         </div>
     </section>
 }
